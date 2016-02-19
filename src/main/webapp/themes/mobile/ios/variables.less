@@ -1,9 +1,9 @@
 // Override Bootstrap SASS Variables
 
-@brand-primary:                         #e91e63;
-@brand-success:                         #78ae61;
+@brand-primary:                         #2196f3;
+@brand-success:                         #4cd964;
 @brand-warning:                         #fc0;
-@brand-danger:                          #f45f60;
+@brand-danger:                          #ff3b30;
 @brand-info:                            #34aadc;
 
 
@@ -29,9 +29,9 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               #fff;
+@body-bg:               #F3F3F4;
 //** Global text color on `<body>`.
-@text-color:            #323232;
+@text-color:            @gray-dark;
 
 //** Global textual link color.
 @link-color:            @brand-primary;
@@ -145,14 +145,14 @@
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
-@btn-font-weight:                bold;
+@btn-font-weight:                normal;
 
-@btn-default-bg:                 transparent;
+@btn-default-bg:                 #fff;
 @btn-default-color:              @brand-primary;
 @btn-default-border:             darken(@btn-default-color, 10%);
 
-@btn-primary-color:              @brand-primary;
-@btn-primary-bg:                 @text-color;
+@btn-primary-color:              #fff;
+@btn-primary-bg:                 @brand-primary;
 @btn-primary-border:             darken(@btn-primary-bg, 10%);
 
 @btn-success-color:              #fff;
@@ -177,6 +177,7 @@
 @btn-border-radius-base:         @border-radius-base;
 @btn-border-radius-large:        @border-radius-large;
 @btn-border-radius-small:        @border-radius-small;
+
 
 
 //== Forms
@@ -369,11 +370,11 @@
 
 @navbar-default-color:             #909090;
 @navbar-default-hover-bg:          #424554;
-@navbar-default-bg:                @text-color;
+@navbar-default-bg:                #f3f2f3;
 @navbar-default-border:            #000;
 
 // Navbar links
-@navbar-default-link-color:                #fff;
+@navbar-default-link-color:                #929292;
 @navbar-default-link-hover-color:          @brand-primary;
 @navbar-default-link-hover-bg:             transparent;
 @navbar-default-link-active-color:         @brand-primary;
@@ -431,13 +432,13 @@
 @nav-disabled-link-hover-color:             @gray-light;
 
 //== Tabs
-@nav-tabs-border-color:                     rgba(0,0,0,0.2);
+@nav-tabs-border-color:                     #ddd;
 
 @nav-tabs-link-hover-border-color:          @gray-lighter;
 
-@nav-tabs-active-link-hover-bg:             @text-color;
-@nav-tabs-active-link-hover-color:          @gray;
-@nav-tabs-active-link-hover-border-color:   #ddd;
+@nav-tabs-active-link-hover-bg:             @brand-primary;
+@nav-tabs-active-link-hover-color:          #fff;
+@nav-tabs-active-link-hover-border-color:   transparent;
 
 @nav-tabs-justified-link-border-color:            #ddd;
 @nav-tabs-justified-active-link-border-color:     @body-bg;
