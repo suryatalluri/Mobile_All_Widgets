@@ -1,0 +1,58 @@
+<wm-page data-ng-controller="SharePageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-form class="panel-default" name="form1">
+                <wm-layoutgrid name="layoutgrid3" paddingunit="em">
+                    <wm-gridrow name="gridrow7">
+                        <wm-gridcolumn name="gridcolumn11" paddingleft="1" paddingunit="em" paddingtop="1">
+                            <wm-composite horizontalalign="left" name="composite4">
+                                <wm-picture name="userThumbnail" picturesource="http://dev.wavemaker.com/examples/salesrep/Chris-Madison.png" class="col-xs-2"></wm-picture>
+                                <wm-container class="col-xs-10" name="container5" paddingleft="1" paddingunit="em">
+                                    <wm-textarea tabindex="4" placeholder="Write a Caption" name="textarea2" height="8em"></wm-textarea>
+                                </wm-container>
+                            </wm-composite>
+                        </wm-gridcolumn>
+                    </wm-gridrow>
+                    <wm-gridrow name="gridrow7_1">
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn10_1" paddingleft="1" paddingunit="em" paddingtop="1">
+                            <wm-composite name="composite4_1">
+                                <wm-label class="col-xs-9" name="label4_1" caption="Add to Photo Map"></wm-label>
+                                <wm-container class="col-xs-3" name="container5_1">
+                                    <wm-checkbox caption="Toggle" type="toggle" name="toggle2"></wm-checkbox>
+                                </wm-container>
+                            </wm-composite>
+                        </wm-gridcolumn>
+                    </wm-gridrow>
+                </wm-layoutgrid>
+            </wm-form>
+            <wm-layoutgrid name="layoutgrid2">
+                <wm-gridrow name="gridrow4">
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn4">
+                        <wm-button class="btn-primary" caption="Facebook" name="shareonfacebook" iconclass="fa fa-facebook" width="100%" textalign="left" marginbottom="5" marginunit="px"></wm-button>
+                    </wm-gridcolumn>
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn5">
+                        <wm-button caption="Twitter" type="button" iconclass="fa fa-twitter" name="shareOnTwitter" class="btn-primary" width="100%" marginbottom="5" textalign="left"></wm-button>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+                <wm-gridrow name="gridrow5">
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn7">
+                        <wm-button caption="Email" type="button" iconclass="fa fa-envelope" width="100%" name="shareViaEmail" class="btn-primary" marginbottom="5" textalign="left"></wm-button>
+                    </wm-gridcolumn>
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn8">
+                        <wm-button caption="tumblr" type="button" iconclass="fa fa-tumblr" width="100%" name="shareViaTumblr" class="btn-primary" marginbottom="5" textalign="left"></wm-button>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+                <wm-gridrow name="gridrow6">
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn10">
+                        <wm-button caption="Flickr" type="button" iconclass="fa fa-flickr" width="100%" name="shareViaFlickr" class="btn-primary" textalign="left"></wm-button>
+                    </wm-gridcolumn>
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn11_1">
+                        <wm-button caption="foursquare" type="button" iconclass="fa fa-foursquare" width="100%" name="shareViaFoursquare" class="btn-primary" textalign="left"></wm-button>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+            </wm-layoutgrid>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

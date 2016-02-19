@@ -1,0 +1,42 @@
+<wm-page data-ng-controller="ActivityFeedPageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1" title="activity feed"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-segmented-control name="segmented_control1">
+                <wm-segment-content caption="Messages" name="segment_content1">
+                    <wm-livelist listclass="list-group" itemclass="media" name="livelist2" dataset="1,2,3,4,5,6,7,8" template="true">
+                        <wm-listtemplate layout="media" name="listtemplate2">
+                            <wm-container class="media-left" name="container4">
+                                <wm-picture class="media-object picture" shape="circle" width="40pt" name="picture2" picturesource="http://dev.wavemaker.com/examples/salesrep/Chris-Madison.png"></wm-picture>
+                            </wm-container>
+                            <wm-container class="media-body" data-template-ctr="true" name="container5">
+                                <wm-label name="label4_1" caption="Jiri" marginright="0.25" marginunit="em" class="media-heading h4"></wm-label>
+                                <wm-label name="label5" caption="and 2 other friends added you" class="media-heading h4"></wm-label>
+                                <br>
+                                <wm-icon name="icon1" iconclass="glyphicon glyphicon-time" iconsize="1em" color="#ada5a5"></wm-icon>
+                                <wm-label name="label2" caption="A few seconds" class="h6" margintop="0" marginbottom="0" marginleft=".5" marginunit="em" color="#ada5a5"></wm-label>
+                            </wm-container>
+                        </wm-listtemplate>
+                    </wm-livelist>
+                </wm-segment-content>
+                <wm-segment-content caption="Notification" name="segment_content4">
+                    <wm-livelist listclass="list-group" itemclass="media" name="livelist2_1" dataset="1,2,3,4,5" template="true">
+                        <wm-listtemplate layout="media" name="listtemplate2_1">
+                            <wm-container class="media-left" name="container4_1">
+                                <wm-icon name="icon2" iconsize="20pt" iconclass="glyphicon glyphicon-bell"></wm-icon>
+                            </wm-container>
+                            <wm-container class="media-body" data-template-ctr="true" name="container5_1">
+                                <wm-label name="label4" class="media-heading h4" caption="Lin has added you as friend"></wm-label>
+                            </wm-container>
+                            <wm-container class="media-right media-middle" name="container6" fontsize="0.8" fontunit="em" whitespace="nowrap">
+                                <wm-button class="btn-rounded btn-success" caption="" type="button" name="button1_1" iconclass="glyphicon glyphicon-ok" width="24pt" height="24pt" marginright="1" marginunit="em" color="#ffffff"></wm-button>
+                                <wm-button class="btn-rounded btn-danger" caption="" type="button" iconclass="glyphicon glyphicon-remove" name="button2" width="24pt" height="24pt" color="#ffffff"></wm-button>
+                            </wm-container>
+                        </wm-listtemplate>
+                    </wm-livelist>
+                </wm-segment-content>
+            </wm-segmented-control>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

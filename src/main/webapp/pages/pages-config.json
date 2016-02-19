@@ -1,0 +1,49 @@
+[ {
+  "name" : "ActivityFeed",
+  "type" : "PAGE"
+}, {
+  "name" : "BasicCard",
+  "type" : "PAGE"
+}, {
+  "name" : "BasicCompose",
+  "type" : "PAGE"
+}, {
+  "name" : "BasicProfile",
+  "type" : "PAGE"
+}, {
+  "name" : "Common",
+  "type" : "PARTIAL"
+}, {
+  "name" : "Explore",
+  "type" : "PAGE"
+}, {
+  "name" : "FacebookProfile",
+  "type" : "PAGE"
+}, {
+  "name" : "HalfimageList",
+  "type" : "PAGE"
+}, {
+  "name" : "Linkedin",
+  "type" : "PAGE"
+}, {
+  "name" : "Login",
+  "type" : "PAGE"
+}, {
+  "name" : "Main",
+  "type" : "PAGE"
+}, {
+  "name" : "MenuIcons",
+  "type" : "PAGE"
+}, {
+  "name" : "Radiobuttonlist",
+  "type" : "PAGE"
+}, {
+  "name" : "Share",
+  "type" : "PAGE"
+}, {
+  "name" : "ThumbnailList",
+  "type" : "PAGE"
+}, {
+  "name" : "leftnav",
+  "type" : "PARTIAL"
+} ]

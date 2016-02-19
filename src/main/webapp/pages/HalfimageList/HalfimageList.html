@@ -1,0 +1,39 @@
+<wm-page data-ng-controller="HalfimageListPageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1" title="Pictures">
+        <wm-anchor name="anchor2" iconclass="fa fa-bell-o" caption=""></wm-anchor>
+    </wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-carousel height="200" name="carousel">
+                <wm-carousel-content name="carousel_content4">
+                    <wm-picture width="100%" name="carouselPicture1" picturesource="http://dev.wavemaker.com/templates/mobile/half_image_list_1.jpg"></wm-picture>
+                </wm-carousel-content>
+                <wm-carousel-content name="carousel_content5" backgroundimage="https://download.unsplash.com/photo-1428452932365-4e7e1c4b0987">
+                    <wm-picture width="100%" name="carouselPicture2" picturesource="http://dev.wavemaker.com/templates/mobile/half_image_list_2.jpg"></wm-picture>
+                </wm-carousel-content>
+                <wm-carousel-content name="carousel_content6">
+                    <wm-picture width="100%" name="carouselPicture3" picturesource="http://dev.wavemaker.com/templates/mobile/half_image_list_3.jpg"></wm-picture>
+                </wm-carousel-content>
+            </wm-carousel>
+            <wm-livelist listclass="list-group" itemclass="list-group-item" template="true" name="pinsList" dataset="1,2,3,4,5" margintop="0">
+                <wm-listtemplate layout="media" name="listtemplate1">
+                    <wm-container class="media-left" name="container3">
+                        <wm-picture class="media-object picture" width="40pt" name="picture5" picturesource="https://c2.staticflickr.com/8/7524/16171399061_01ae28e9ca_z.jpg"></wm-picture>
+                    </wm-container>
+                    <wm-container class="media-body" data-template-ctr="true" name="container4">
+                        <wm-label name="title" width="100%" caption="Best Salad Bars" class="media-heading h4"></wm-label>
+                        <wm-label name="numberOfPins" caption="10 pins by" class="list-group-item-text text-muted" marginright="0.5" marginunit="em"></wm-label>
+                        <wm-label caption="Josh Austin" name="pinsByUser" class="list-group-item-text text-muted"></wm-label>
+                        <br>
+                        <wm-label name="numberOfFollowers" caption="100" class="text-uppercase list-group-item-text" paddingright="0.5" paddingunit="em"></wm-label>
+                        <wm-label caption="followers" name="followersLabel" class="text-uppercase list-group-item-text text-muted"></wm-label>
+                    </wm-container>
+                    <wm-container class="media-right media-middle" name="container5">
+                        <wm-anchor iconname="chevron-right" caption="" name="anchor1" iconclass="fa fa-chevron-right fa-2x"></wm-anchor>
+                    </wm-container>
+                </wm-listtemplate>
+            </wm-livelist>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

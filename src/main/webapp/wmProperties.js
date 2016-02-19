@@ -1,0 +1,1 @@
+var _WM_APP_PROPERTIES = {"name":"Mobile_All_Widgets","version":"1.0","defaultLanguage":"en","type":"APPLICATION","homePage":"Main","platformType":"MOBILE","activeTheme":"candy-crush"}

@@ -1,0 +1,22 @@
+<wm-page data-ng-controller="ThumbnailListPageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-livelist listclass="list-group" template="true" name="thumbnailsList" dataset="1,2,3,4,5,6,7,8" itemclass="list-group-item">
+                <wm-listtemplate layout="media" name="listtemplate1">
+                    <wm-container class="media-left" name="container2">
+                        <wm-picture class="media-object picture" width="40pt" picturesource="http://dev.wavemaker.com/examples/salesrep/Chris-Madison.png" name="picture1"></wm-picture>
+                    </wm-container>
+                    <wm-container class="media-body" data-template-ctr="true" name="container3">
+                        <wm-label name="nameLabel" caption="Chris Madison" width="100%" class="h4"></wm-label>
+                        <wm-label name="companyName" width="100%" caption="Company: Mobeteq Inc" class="text-uppercase text-muted"></wm-label>
+                    </wm-container>
+                    <wm-container class="media-right media-middle" name="container4">
+                        <wm-anchor caption="" iconclass="fa fa-chevron-right fa-2x" name="anchor1"></wm-anchor>
+                    </wm-container>
+                </wm-listtemplate>
+            </wm-livelist>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

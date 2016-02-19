@@ -1,0 +1,56 @@
+<style id="Explore.css">
+
+
+</style>
+<script id="Explore.js">
+Application.$controller("ExplorePageController", ["$scope", function ($scope) {
+    "use strict";
+}]);
+
+
+</script>
+<script id="Explore.variables.json">
+var _ExplorePage_Variables_ ={ }
+</script>
+<script id="Explore.html" type="text/ng-template">
+<wm-page data-ng-controller="ExplorePageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-container name="container4_1" paddingtop="0.5" paddingright="0.5" paddingbottom="0.5" paddingleft="0.5" paddingunit="em">
+                <wm-text type="search" name="text1" placeholder="Search"></wm-text>
+            </wm-container>
+            <wm-tile name="tile1" paddingleft="1" paddingright="1" paddingunit="em" marginunit="em" backgroundcolor="#0078FF" color="#ffffff" paddingbottom="1">
+                <wm-label name="label7_1" width="99%" caption="Explore nearby" class="h3" borderstyle="solid" bordercolor="#ffffff" borderbottom=".05" borderleft="0" bordertop="0" borderright="0" borderunit="em"></wm-label>
+                <wm-buttongroup name="buttongroup1" class="btn-group-justified">
+                    <wm-button class="btn-transparent" caption="Eat" iconclass="fa fa-cutlery fa-lg" name="button1" iconposition="top" width="25%"></wm-button>
+                    <wm-button class="btn-transparent" caption="Drink" iconclass="fa fa-coffee fa-lg" name="button2" iconposition="top" width="25%"></wm-button>
+                    <wm-button class="btn-transparent" caption="Play" iconclass="fa fa-asterisk fa-lg" name="button3" iconposition="top" width="25%"></wm-button>
+                    <wm-button class="btn-transparent" caption="More" iconclass="fa fa-ellipsis-h fa-lg" name="button3" iconposition="top" width="25%"></wm-button>
+                </wm-buttongroup>
+            </wm-tile>
+            <wm-nav type="pills" name="nav1" layout="stacked">
+                <wm-nav-item name="nav_item1">
+                    <wm-anchor caption="Groceries" name="anchor1" iconclass="fa fa-cart-plus fa-2x" iconwidth="1.5em"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item2">
+                    <wm-anchor caption="Pharmacies" name="anchor2" iconclass="fa fa-medkit fa-2x" iconwidth="1.5em"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item3">
+                    <wm-anchor caption="ATMs" name="anchor3" iconclass="fa fa-money fa-2x" iconwidth="1.5em"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item4">
+                    <wm-anchor name="anchor4" iconclass="fa fa-automobile fa-2x" caption="Gas stations" iconwidth="1.5em"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item5">
+                    <wm-anchor name="anchor5" caption="View more categories" iconclass="glyphicon glyphicon-menu-right" iconposition="right"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item6">
+                    <wm-anchor name="anchor6" iconclass="glyphicon glyphicon-download-alt fa-2x" caption="Save map to use offine" iconwidth="1.5em"></wm-anchor>
+                </wm-nav-item>
+            </wm-nav>
+        </wm-page-content>
+    </wm-content>
+</wm-page>
+</script>

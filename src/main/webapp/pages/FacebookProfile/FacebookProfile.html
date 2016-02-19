@@ -1,0 +1,61 @@
+<wm-page data-ng-controller="FacebookProfilePageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1" title="facebook"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-layoutgrid name="layoutgrid1" color="#ffffff" backgroundsize="auto 100%" backgroundcolor="#221b1b">
+                <wm-gridrow name="gridrow1">
+                    <wm-gridcolumn columnwidth="4" name="gridcolumn1" paddingtop="6" paddingunit="em" paddingbottom="1" height="100%" paddingleft="1">
+                        <wm-picture name="userPicture" picturesource="http://dev.wavemaker.com/examples/salesrep/Chris-Madison.png" shape="thumbnail" margintop="2" marginunit="em" bordercolor="#d8dcdc" borderstyle="solid" bordertop="0.25" borderunit="em"
+                        borderleft="0.25" borderright="0.25" borderbottom="0.25" width="7.5em"></wm-picture>
+                    </wm-gridcolumn>
+                    <wm-gridcolumn columnwidth="8" name="gridcolumn2" paddingtop="6.5" paddingunit="em" paddingleft="1">
+                        <wm-label name="userFullName" caption="Chris Madison" class="h1" marginunit="em"></wm-label>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+            </wm-layoutgrid>
+            <wm-buttongroup name="buttongroup3" class="btn-group-justified" vertical="false">
+                <wm-button caption="Friends" name="button6" iconclass="fa fa-users fa-2x" iconposition="top" width="25%"></wm-button>
+                <wm-button caption="Messages" name="button7" iconclass="fa fa-comments-o fa-2x" iconposition="top" width="25%" badgevalue="12"></wm-button>
+                <wm-button caption="Call" name="button8" iconclass="fa fa-phone fa-2x" iconposition="top" width="25%"></wm-button>
+                <wm-button caption="More" type="button" name="button7_1" iconclass="fa fa-ellipsis-h fa-2x" iconposition="top" width="25%"></wm-button>
+            </wm-buttongroup>
+            <wm-nav type="pills" name="nav1" layout="stacked">
+                <wm-nav-item name="nav_item1">
+                    <wm-anchor name="anchor5" iconclass="fa fa-gear fa-2x" badgevalue="12" caption="Pending Post"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item2">
+                    <wm-anchor name="anchor5" iconclass="fa fa-map-marker fa-2x" caption="Visiting San Francisco"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item3">
+                    <wm-anchor iconclass="fa fa-star-o fa-2x" caption="Event" name="anchor3" badgevalue="2"></wm-anchor>
+                </wm-nav-item>
+            </wm-nav>
+            <wm-panel class="panel-primary" collapsible="false" showheader="true" name="aboutPanel" title="Friends" borderstyle="none" marginunit="em" iconclass="fa fa-users">
+                <wm-livelist listclass="list-group list-inline" name="livelist2" dataset="1, 2, 3, 4, 5, 6, 7, 8" paddingleft="10" paddingtop="10">
+                    <wm-listtemplate name="listtemplate2">
+                        <wm-picture name="picture3" picturesource="http://dev.wavemaker.com/examples/salesrep/Amanda-Brown.png" width="60pt" marginbottom="10"></wm-picture>
+                    </wm-listtemplate>
+                </wm-livelist>
+            </wm-panel>
+            <wm-panel class="panel-primary" collapsible="false" showheader="true" name="usersPostsPanel" title="Messages" iconclass="fa fa-comments">
+                <wm-livelist listclass="list-group" template="true" name="livelist1" dataset="1,2,3" itemclass="media">
+                    <wm-listtemplate layout="media" name="listtemplate1">
+                        <wm-container class="media-left" name="container3">
+                            <wm-picture class="media-object picture" shape="circle" width="50" name="picture2" picturesource="http://dev.wavemaker.com/examples/salesrep/Amanda-Brown.png"></wm-picture>
+                        </wm-container>
+                        <wm-container class="media-body" data-template-ctr="true" name="container4">
+                            <wm-label name="userAction" caption="Amanda posted a photo" marginbottom="0" margintop="0"></wm-label>
+                            <wm-label name="timePosted" caption="45 min ago" class="pull-right text-muted" margintop="2"></wm-label>
+                            <wm-label caption="Hi Chris, do you want to go to the conference in June?" margintop="0" marginbottom="0" name="experienceDuration"></wm-label>
+                            <wm-buttongroup name="buttongroup2">
+                                <wm-button caption="" name="likePostBtn" iconclass="fa fa-heart" fontsize="1.5" fontunit="em" borderstyle="none" class="btn-transparent"></wm-button>
+                                <wm-button caption="" name="sharePostBtn" iconclass="fa fa-wechat" fontsize="1.5" fontunit="em" borderstyle="none" class="btn-transparent"></wm-button>
+                            </wm-buttongroup>
+                        </wm-container>
+                    </wm-listtemplate>
+                </wm-livelist>
+            </wm-panel>
+        </wm-page-content>
+    </wm-content>
+</wm-page>
