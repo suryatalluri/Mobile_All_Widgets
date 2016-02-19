@@ -1,0 +1,34 @@
+<style id="Image_Grid_List.css">
+
+
+</style>
+<script id="Image_Grid_List.js">
+Application.$controller("Image_Grid_ListPageController", ["$scope", function ($scope) {
+    "use strict";
+}]);
+
+
+</script>
+<script id="Image_Grid_List.variables.json">
+var _Image_Grid_ListPage_Variables_ ={};
+</script>
+<script id="Image_Grid_List.html" type="text/ng-template">
+<wm-page data-ng-controller="Image_Grid_ListPageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-container name="container4_1" paddingtop="0.5" paddingright="0.5" paddingbottom="0.5" paddingleft="0.5" paddingunit="em">
+                <wm-text name="text1" placeholder="Search" type="search"></wm-text>
+            </wm-container>
+            <wm-label name="CategoryLabel" width="100%" caption="New &amp; Noteworthy" class="text-uppercase h5" paddingleft=".5" paddingright=".5" paddingtop=".5" paddingbottom=".5" paddingunit="em" margintop=".5" marginunit="em" bordercolor="#ccc" borderstyle="solid"
+            bordertop="0" borderleft="0" borderright="0" borderbottom="1" color="#a39d9d"></wm-label>
+            <wm-media-list name="media_list1" layout="Multi-row" dataset="bind:Variables.HrdbEmployeeData.dataSet" paddingunit="em" thumbnailurl="picurl" mediaurl="picurl">
+                <wm-media-template name="media_template1" width="100" height="100">
+                    <wm-label width="94%" caption="bind:Variables.HrdbEmployeeData.dataSet.data[$i].firstname" color="#fff" class="h5" margintop="80" marginleft="0" textalign="center" name="label3" backgroundcolor="rgba(0,0,0,0.5)"></wm-label>
+                </wm-media-template>
+            </wm-media-list>
+        </wm-page-content>
+    </wm-content>
+</wm-page>
+</script>

@@ -1,0 +1,17 @@
+<wm-page data-ng-controller="Large_Image_ListPageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-livelist listclass="list-group" template="true" dataset="1,2,3,4,5" itemsperrow="1" name="largeImageList">
+                <wm-listtemplate layout="blank" name="listtemplate1">
+                    <wm-container class="blank" data-template-ctr="true" backgroundimage="http://dev.wavemaker.com/templates/mobile/large_image_list.jpg" height="180" paddingtop="1" paddingleft="1" paddingright="1" paddingbottom="1" paddingunit="em" marginunit="em"
+                    backgroundrepeat="no-repeat" name="container1" backgroundsize="100%,100%">
+                        <wm-label caption="THINGS TO DO (1/5)" color="#fff" fontsize="10" fontfamily="Arial" name="timeLabel" paddingleft="0.75" paddingright="0.75" paddingunit="em" paddingtop="0.75" paddingbottom="0.75" backgroundcolor="#e95b5b" margintop="5"
+                        marginbottom="0" class="text-uppercase" marginleft="-13"></wm-label>
+                    </wm-container>
+                </wm-listtemplate>
+            </wm-livelist>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

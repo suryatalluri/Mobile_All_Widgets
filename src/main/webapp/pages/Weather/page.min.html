@@ -1,0 +1,137 @@
+<style id="Weather.css">
+
+
+</style>
+<script id="Weather.js">
+Application.$controller("WeatherPageController", ["$scope", function ($scope) {
+    "use strict";
+}]);
+
+
+</script>
+<script id="Weather.variables.json">
+var _WeatherPage_Variables_ ={};
+</script>
+<script id="Weather.html" type="text/ng-template">
+<wm-page data-ng-controller="WeatherPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-composite name="composite1" backgroundcolor="rgb(242, 242, 242)" marginunit="em" marginbottom="0"> 
+                <wm-text name="text1" placeholder="Search Nearby..." fontsize="1" fontunit="em" class="input-lg" marginunit="em" margintop="0.4" marginleft="0.4" paddingright="0" paddingunit="em" width="97%"></wm-text> 
+                <wm-container class="pull-right" name="container1_1" marginunit="em" margintop="-2.1" marginright="0.5"> 
+                    <wm-icon name="icon1" iconclass="fa fa-microphone" iconsize="1.5em" marginunit="em" color="#858282"></wm-icon> 
+                </wm-container> 
+                <wm-layoutgrid name="layoutgrid1" marginunit="em" margintop="0.4" backgroundcolor="#ffffff" marginbottom="0.4" width="96.5%" marginleft="0.4"> 
+                    <wm-gridrow name="gridrow1"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn1" height="100%" class="col-xs-12"> 
+                            <wm-label name="label1" caption="NEW YORK" fontsize="1" fontunit="em" class="pull-left" marginunit="em" marginleft="0.8" color="#998e8e" paddingunit="em" paddingtop="0.5"></wm-label> 
+                            <wm-container name="container2_1" marginunit="em" margintop="0.7" paddingunit="em" class="pull-right"> 
+                                <wm-icon name="icon4" iconclass="glyphicon glyphicon-option-vertical" color="#858282"></wm-icon> 
+                            </wm-container> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow2"> 
+                        <wm-gridcolumn columnwidth="6" name="gridcolumn4" class="col-xs-6"> 
+                            <wm-container name="container1" paddingleft="10" paddingtop="10" paddingbottom="0"> 
+                                <wm-icon name="icon7" iconclass="glyphicon glyphicon-cloud" iconsize="60px" color="#998e8e"></wm-icon> 
+                            </wm-container> 
+                            <wm-container name="container2"> 
+                                <wm-label name="label1" caption="MOSTLY CLOUDY" fontsize="0.7" fontunit="em" marginleft="1.2" marginunit="em" color="#858282"></wm-label> 
+                            </wm-container> 
+                            <wm-container name="container3" marginleft="1" marginunit="em" height="15px"></wm-container> 
+                            <wm-container name="container4" marginleft="1" marginunit="em" height="15px"></wm-container> 
+                        </wm-gridcolumn> 
+                        <wm-gridcolumn columnwidth="6" name="gridcolumn6" horizontalalign="center" class="col-xs-6"> 
+                            <wm-container name="container5" fontsize="5.5" fontunit="em" horizontalalign="center" class="media-middle" color="#247eab"> 
+                                <p>34</p> 
+                            </wm-container> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow3" paddingtop="0.5" paddingunit="em" paddingbottom="0.3"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn7" class="col-xs-12"> 
+                            <wm-layoutgrid name="layoutgrid2"> 
+                                <wm-gridrow name="gridrow4"> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn5" horizontalalign="center" class="col-xs-3" fontsize="1" fontunit="em"> 
+                                        <wm-label name="label4" caption="SUN" fontsize="0.8" fontunit="em" color="#858282"></wm-label> 
+                                    </wm-gridcolumn> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn6_1" horizontalalign="center" class="col-xs-3"> 
+                                        <wm-label name="label4" caption="MON" fontsize="0.8" fontunit="em" color="#858282"></wm-label> 
+                                    </wm-gridcolumn> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn7_1" horizontalalign="center" class="col-xs-3"> 
+                                        <wm-label name="label4" caption="TUE" fontsize="0.8" fontunit="em" color="#858282"></wm-label> 
+                                    </wm-gridcolumn> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn7_1" horizontalalign="center" class="col-xs-3"> 
+                                        <wm-label name="label4" caption="WED" fontsize="0.8" fontunit="em" color="#858282"></wm-label> 
+                                    </wm-gridcolumn> 
+                                </wm-gridrow> 
+                                <wm-gridrow name="gridrow5"> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn5" horizontalalign="center" class="col-xs-3" borderunit="em" borderright="0.2" borderstyle="solid" bordercolor="#ebebeb"> 
+                                        <wm-icon name="icon8" iconclass="glyphicon glyphicon-cloud" color="#998e8e"></wm-icon> 
+                                    </wm-gridcolumn> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn6_1" horizontalalign="center" class="col-xs-3" bordercolor="#ebebeb" borderstyle="solid" borderright="0.2" borderunit="em"> 
+                                        <wm-icon name="icon9" iconclass="fa fa-umbrella" color="#998e8e"></wm-icon> 
+                                    </wm-gridcolumn> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn7_1" horizontalalign="center" class="col-xs-3" bordercolor="#ebebeb" borderstyle="solid" borderright="0.2" borderunit="em"> 
+                                        <wm-icon name="icon10" iconclass="glyphicon glyphicon-cloud" color="#998e8e"></wm-icon> 
+                                    </wm-gridcolumn> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn7_1" horizontalalign="center" class="col-xs-3"> 
+                                        <wm-icon name="icon11" iconclass="fa fa-sun-o" color="#998e8e"></wm-icon> 
+                                    </wm-gridcolumn> 
+                                </wm-gridrow> 
+                                <wm-gridrow name="gridrow6"> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn5" horizontalalign="center" class="col-xs-3" bordercolor="#ebebeb" borderright="0.2" borderunit="em" borderstyle="solid" fontsize="0.8" fontunit="em" fontweight="bold"> 
+                                        <wm-container name="container9" paddingunit="em" paddingtop="0.4" color="#858282"> 
+                                            <p>45<sup>o</sup> </p> 
+                                        </wm-container> 
+                                    </wm-gridcolumn> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn6_1" horizontalalign="center" class="col-xs-3" bordercolor="#ebebeb" borderstyle="solid" borderright="0.2" borderunit="em" fontsize="0.8" fontunit="em" fontweight="bold"> 
+                                        <wm-container name="container10" paddingtop="0.4" paddingunit="em" color="#858282"> 
+                                            <p>41<sup>o</sup> </p> 
+                                        </wm-container> 
+                                    </wm-gridcolumn> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn7_1" horizontalalign="center" class="col-xs-3" bordercolor="#ebebeb" borderstyle="solid" borderright="0.2" borderunit="em" fontsize="0.8" fontunit="em" fontweight="bold"> 
+                                        <wm-container name="container11" paddingtop="0.4" paddingunit="em" color="#858282"> 
+                                            <p>46<sup>o</sup> </p> 
+                                        </wm-container> 
+                                    </wm-gridcolumn> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn7_1" horizontalalign="center" class="col-xs-3" fontsize="0.8" fontunit="em" fontweight="bold"> 
+                                        <wm-container name="container12" paddingtop="0.4" paddingunit="em" color="#858282"> 
+                                            <p>45<sup>o</sup> </p> 
+                                        </wm-container> 
+                                    </wm-gridcolumn> 
+                                </wm-gridrow> 
+                                <wm-gridrow name="gridrow7"> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn5" horizontalalign="center" class="col-xs-3" bordercolor="#ebebeb" borderstyle="solid" borderright="0.2" borderunit="em" color="#bfbdbd" fontsize="0.8" fontunit="em"> 
+                                        <p>30<sup>o</sup> </p> 
+                                    </wm-gridcolumn> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn6_1" horizontalalign="center" class="col-xs-3" bordercolor="#ebebeb" borderstyle="solid" borderright="0.2" borderunit="em" color="#bfbdbd" fontsize="0.8" fontunit="em"> 
+                                        <p>34<sup>o</sup> </p> 
+                                    </wm-gridcolumn> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn7_1" horizontalalign="center" class="col-xs-3" bordercolor="#ebebeb" borderstyle="solid" borderright="0.2" borderunit="em" color="#bfbdbd" fontsize="0.8" fontunit="em"> 
+                                        <p>37<sup>o</sup> </p> 
+                                    </wm-gridcolumn> 
+                                    <wm-gridcolumn columnwidth="3" name="gridcolumn7_1" horizontalalign="center" class="col-xs-3" color="#bfbdbd" fontsize="0.8" fontunit="em"> 
+                                        <p>37<sup>o</sup> </p> 
+                                    </wm-gridcolumn> 
+                                </wm-gridrow> 
+                            </wm-layoutgrid> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                </wm-layoutgrid> 
+                <wm-tile name="container8" paddingunit="em" paddingbottom="1" backgroundcolor="#ffffff" marginbottom="0.5" marginunit="em" marginleft="0.4" marginright="0.4" paddingtop="1"> 
+                    <wm-label name="label8" paddingunit="em" caption="View nearby events" fontunit="em" fontsize="1.2" margintop="0.2" marginunit="em" marginleft="0.8" class="pull-left" color="#858282"></wm-label> 
+                    <wm-container name="container2_1" marginunit="em" margintop="0.8" paddingunit="em" class="pull-right"> 
+                        <wm-icon name="icon4" iconclass="glyphicon glyphicon-option-vertical" color="#858282"></wm-icon> 
+                    </wm-container> 
+                    <wm-label name="label8" caption="Parsifal, Swedish House Mafia, Matilda - The Musical,..." fontunit="em" margintop="0.2" marginunit="em" marginleft="1.5" width="90%" fontsize="0.65" color="#858282" marginbottom="0.2"></wm-label> 
+                </wm-tile> 
+                <wm-container name="container17" horizontalalign="center" borderunit="em" bordertop="0.1" bordercolor="#bfbdbd" borderstyle="solid" borderleft="0" borderright="0" borderbottom="0" margintop="0.3" marginunit="em"> 
+                    <wm-label name="label12" textalign="center" caption="Show sample cards" fontsize="0.6" fontunit="em" fontstyle="italic" color="#858282" paddingtop="1" paddingunit="em"></wm-label> 
+                </wm-container> 
+            </wm-composite> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>
+</script>

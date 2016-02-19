@@ -1,0 +1,50 @@
+<style id="Ecommerce_List.css">
+
+
+</style>
+<script id="Ecommerce_List.js">
+Application.$controller("Ecommerce_ListPageController", ["$scope", function($scope) {
+    "use strict";
+}]);
+
+</script>
+<script id="Ecommerce_List.variables.json">
+var _Ecommerce_ListPage_Variables_ ={};
+</script>
+<script id="Ecommerce_List.html" type="text/ng-template">
+<wm-page data-ng-controller="Ecommerce_ListPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-tabs name="tabs1" height="100%"> 
+                <wm-tabpane name="tabpane2"> 
+                    <wm-tabheader name="tabheader2" heading="Things"></wm-tabheader> 
+                    <wm-tabcontent name="tabcontent2" paddingleft="0" paddingright="0"> 
+                        <wm-livelist listclass="list-group" itemclass="col-xs-6" template="true" name="imageGridList" dataset="1,2,3,4,5" itemsperrow="1" marginunit="em" paddingunit="em" paddingtop="0" paddingright="0" paddingbottom="0" paddingleft="0"> 
+                            <wm-listtemplate layout="blank" name="listtemplate1" display="inline"> 
+                                <wm-container name="container1" paddingtop="0" paddingbottom="0.8" paddingunit="em" margintop="0" marginbottom="0" paddingright="0.2" paddingleft="0.2" marginleft="0.2" marginright="0.2" marginunit="em" borderstyle="none" borderunit="em"> 
+                                    <wm-picture name="picture1" backgroundsize="100%,0" picturesource="http://dev.wavemaker.com/templates/mobile/list_ecom_images.jpg" width="100%" paddingunit="em" paddingright="0" marginunit="em" height="100%" borderstyle="none"></wm-picture> 
+                                    <wm-container name="container2" bordertop="0" borderleft="0.1" borderright="0.1" borderunit="em" borderbottom="0.1" borderstyle="solid" bordercolor="#ECECEC" paddingleft="0" paddingright="0" paddingunit="em" marginunit="em" display="inherit"> 
+                                        <wm-label name="label4" caption="La Bonita Chair" paddingunit="em" fontweight="bold" width="100%" fontunit="em" paddingleft="0.3" backgroundsize="100%,0" paddingtop="1"></wm-label> 
+                                        <wm-label name="label4_1" fontunit="em" caption="$310" paddingunit="em" paddingleft="0.3" fontweight="bold"></wm-label> 
+                                        <wm-label name="label9" caption="paularoy+ 15.3k" paddingunit="em" class="text-muted" paddingright="0" fontunit="em" paddingleft="0.2"></wm-label> 
+                                    </wm-container> 
+                                </wm-container> 
+                            </wm-listtemplate> 
+                        </wm-livelist> 
+                    </wm-tabcontent> 
+                </wm-tabpane> 
+                <wm-tabpane name="tabpane3"> 
+                    <wm-tabheader name="tabheader3" heading="People"></wm-tabheader> 
+                    <wm-tabcontent name="tabcontent3"></wm-tabcontent> 
+                </wm-tabpane> 
+                <wm-tabpane name="tabpane3_1"> 
+                    <wm-tabheader name="tabheader3_1" heading="Lists"></wm-tabheader> 
+                    <wm-tabcontent name="tabcontent3_1"></wm-tabcontent> 
+                </wm-tabpane> 
+            </wm-tabs> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>
+</script>

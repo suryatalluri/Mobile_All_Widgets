@@ -1,0 +1,70 @@
+<style id="Share_Controls.css">
+
+
+</style>
+<script id="Share_Controls.js">
+Application.$controller("Share_ControlsPageController", ["$scope", function ($scope) {
+    "use strict";
+}]);
+
+
+</script>
+<script id="Share_Controls.variables.json">
+var _Share_ControlsPage_Variables_ ={};
+</script>
+<script id="Share_Controls.html" type="text/ng-template">
+<wm-page data-ng-controller="Share_ControlsPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-tile name="tile1" paddingtop="1" paddingleft="1" paddingright="1" paddingbottom="1" paddingunit="em" marginbottom="2" marginunit="em"> 
+                <wm-textarea name="textarea1" placeholder="Nothing planned. Tap to create." class="col-xs-9" width="70%"></wm-textarea> 
+                <wm-picture name="picture1" class="pull-right" width="70" picturesource="http://dev.wavemaker.com/examples/salesrep/Chris-Madison.png"></wm-picture> 
+            </wm-tile> 
+            <wm-nav type="pills" name="nav1" layout="stacked" paddingunit="em" backgroundcolor="#ffffff"> 
+                <wm-nav-item name="nav_item1"> 
+                    <wm-anchor caption="Add a location" name="anchor1" iconclass="glyphicon glyphicon-map-marker"></wm-anchor> 
+                </wm-nav-item> 
+                <wm-nav-item name="nav_item2"> 
+                    <wm-anchor caption="Add a channel" name="anchor2" iconclass="glyphicon glyphicon-align-justify"></wm-anchor> 
+                </wm-nav-item> 
+            </wm-nav> 
+            <wm-form class="panel-default" name="form1" margintop="2" marginunit="em"> 
+                <wm-layoutgrid name="layoutgrid4"> 
+                    <wm-gridrow name="gridrow4"> 
+                        <wm-gridcolumn name="gridcolumn7" paddingleft="1" paddingunit="em" paddingtop="1"> 
+                            <wm-composite name="composite4"> 
+                                <wm-label class="col-xs-9" caption="Post to Vine" name="label7"></wm-label> 
+                                <wm-container class="col-xs-3" name="container2"> 
+                                    <wm-checkbox caption="Toggle" type="toggle" name="toggle1"></wm-checkbox> 
+                                </wm-container> 
+                            </wm-composite> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow5"> 
+                        <wm-gridcolumn name="gridcolumn8" paddingleft="1" paddingunit="em" paddingtop="1"> 
+                            <wm-composite name="composite5"> 
+                                <wm-label class="col-xs-9" caption="Twitter" name="label8"></wm-label> 
+                                <wm-container class="col-xs-3" name="container3"> 
+                                    <wm-checkbox caption="Toggle" type="toggle" name="toggle2"></wm-checkbox> 
+                                </wm-container> 
+                            </wm-composite> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow6"> 
+                        <wm-gridcolumn name="gridcolumn9" paddingleft="1" paddingunit="em" paddingtop="1"> 
+                            <wm-composite horizontalalign="left" name="composite6"> 
+                                <wm-label class="col-xs-9" caption="Facebook" name="label9"></wm-label> 
+                                <wm-container class="col-xs-3" name="container4"> 
+                                    <wm-checkbox caption="Toggle" type="toggle" name="toggle3"></wm-checkbox> 
+                                </wm-container> 
+                            </wm-composite> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                </wm-layoutgrid> 
+            </wm-form> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>
+</script>

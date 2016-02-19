@@ -1,0 +1,31 @@
+<wm-page data-ng-controller="Basic_detailsPageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-container name="container1" backgroundrepeat="no-repeat" backgroundsize="100%, 100%" horizontalalign="center" height="15em" color="#fff" backgroundcolor="#151515" paddingtop="2" paddingunit="em">
+                <wm-label name="label2" caption="Columbia Cafe" width="100%" class="h2" color="#944e4e" margintop="10" textalign="center"></wm-label>
+                <wm-rating name="rating1" iconsize="20pt"></wm-rating>
+            </wm-container>
+            <wm-buttongroup name="buttongroup1" class="btn-group-justified">
+                <wm-button caption="Rate" name="button10" iconclass="fa fa-star-o fa-2x" iconposition="top" width="25%" class="btn-transparent" iconheight="1.5em"></wm-button>
+                <wm-button caption="Favorite" name="button11" iconclass="fa fa-heart-o fa-2x" iconposition="top" width="25%" class="btn-transparent" iconheight="1.5em"></wm-button>
+                <wm-button caption="Share" name="button12" iconclass="fa fa-share-alt fa-2x" iconposition="top" width="25%" class="btn-transparent" iconheight="1.5em"></wm-button>
+                <wm-button caption="Check-in" type="button" name="button13" iconclass="fa fa-check-square-o fa-2x" iconposition="top" width="25%" class="btn-transparent" iconheight="1.5em"></wm-button>
+            </wm-buttongroup>
+            <wm-livelist listclass="list-group" itemclass="list-group-item" dataset="1,2,3,4,5,6,7" template="true" name="livelist1">
+                <wm-listtemplate layout="media" name="listtemplate1">
+                    <wm-container class="media-left" name="container2">
+                        <wm-icon iconclass="fa fa-map-marker fa-2x" name="icon1"></wm-icon>
+                    </wm-container>
+                    <wm-container class="media-body" data-template-ctr="true" name="container3">
+                        <wm-label caption="120, Tokyo Town" class="media-heading h4" name="label2_1"></wm-label>
+                    </wm-container>
+                    <wm-container class="media-right " name="container5">
+                        <wm-anchor caption="" iconclass="fa fa-chevron-right fa-2x" name="anchor1"></wm-anchor>
+                    </wm-container>
+                </wm-listtemplate>
+            </wm-livelist>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

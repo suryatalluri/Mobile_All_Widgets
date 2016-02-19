@@ -1,0 +1,44 @@
+<wm-page data-ng-controller="Shipping_address_2PageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-container name="container1" backgroundimage="http://dev.wavemaker.com/templates/mobile/shipping_addr_image.jpg" height="15em" backgroundsize="100%, 100%"></wm-container> 
+            <wm-container name="container2" paddingbottom="1" paddingunit="em" bordertop="0" borderleft="0" borderright="0" borderbottom="1" borderstyle="solid" paddingtop="1" paddingleft=".5" paddingright=".5" bordercolor="#ccc"> 
+                <wm-label name="label1" class="h5 text-uppercase" caption="Ship To" margintop="0" marginbottom="0"></wm-label> 
+                <wm-label name="label2" class="h6 pull-right text-uppercase" caption="Step 1 of 2" color="#969696" margintop="0" marginbottom="0"></wm-label> 
+            </wm-container> 
+            <wm-form class="panel-default" name="form1"> 
+                <wm-layoutgrid name="layoutgrid2_1"> 
+                    <wm-gridrow name="gridrow2"> 
+                        <wm-gridcolumn name="gridcolumn4"> 
+                            <wm-text placeholder="Full Name" name="text1" marginunit="em"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow3"> 
+                        <wm-gridcolumn name="gridcolumn5"> 
+                            <wm-text placeholder="Street Address (Include Apt/Unit)" name="text2"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow4_1"> 
+                        <wm-gridcolumn name="gridcolumn6" columnwidth="4"> 
+                            <wm-text placeholder="City" marginunit="em" name="text3"></wm-text> 
+                        </wm-gridcolumn> 
+                        <wm-gridcolumn columnwidth="4" name="gridcolumn7"> 
+                            <wm-select placeholder="State" marginunit="em" name="text4" dataset="MA, NY"></wm-select> 
+                        </wm-gridcolumn> 
+                        <wm-gridcolumn columnwidth="4" name="gridcolumn8"> 
+                            <wm-text placeholder="Zip" marginunit="em" name="text5" type="number"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow5"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn9"> 
+                            <wm-text placeholder="Phone" name="text6" type="tel"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                </wm-layoutgrid> 
+                <wm-button caption="Next" type="button" name="button1" class="btn-lg btn-primary text-uppercase col-xs-10 col-xs-push-1" margintop="1" marginunit="em" marginbottom="1"></wm-button> 
+            </wm-form> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>

@@ -98,6 +98,26 @@
     "pageName" : "Main",
     "pageTransitions" : "none"
   },
+  "goToPage_About" : {
+    "_id" : "wm-goToPage_About-wm.NavigationVariable-1455866413817",
+    "name" : "goToPage_About",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "About",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Account_settings" : {
+    "_id" : "wm-goToPage_Account_settings-wm.NavigationVariable-1455867258294",
+    "name" : "goToPage_Account_settings",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Account_settings",
+    "pageTransitions" : "none"
+  },
   "goToPage_ActivityFeed" : {
     "_id" : "wm-goToPage_ActivityFeed-wm.NavigationVariable-1448214954570",
     "name" : "goToPage_ActivityFeed",
@@ -106,6 +126,66 @@
     "dataBinding" : [ ],
     "operation" : "gotoPage",
     "pageName" : "ActivityFeed",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Add_Event" : {
+    "_id" : "wm-goToPage_Add_Event-wm.NavigationVariable-1455866789760",
+    "name" : "goToPage_Add_Event",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Add_Event",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Avatar_list" : {
+    "_id" : "wm-goToPage_Avatar_list-wm.NavigationVariable-1455865316243",
+    "name" : "goToPage_Avatar_list",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Avatar_list",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Basic_Content" : {
+    "_id" : "wm-goToPage_Basic_Content-wm.NavigationVariable-1455866526919",
+    "name" : "goToPage_Basic_Content",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Basic_Content",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Basic_details" : {
+    "_id" : "wm-goToPage_Basic_details-wm.NavigationVariable-1455864789094",
+    "name" : "goToPage_Basic_details",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Basic_details",
+    "pageTransitions" : "none"
+  },
+  "goToPage_BAsic_Login" : {
+    "_id" : "wm-goToPage_BAsic_Login-wm.NavigationVariable-1455865814280",
+    "name" : "goToPage_BAsic_Login",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "BAsic_Login",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Basic_signup" : {
+    "_id" : "wm-goToPage_Basic_signup-wm.NavigationVariable-1455866245198",
+    "name" : "goToPage_Basic_signup",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Basic_signup",
     "pageTransitions" : "none"
   },
   "goToPage_BasicCard" : {
@@ -138,6 +218,56 @@
     "pageName" : "BasicProfile",
     "pageTransitions" : "none"
   },
+  "goToPage_Calendar_List" : {
+    "_id" : "wm-goToPage_Calendar_List-wm.NavigationVariable-1455865163612",
+    "name" : "goToPage_Calendar_List",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Calendar_List",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Content_with" : {
+    "_id" : "wm-goToPage_Content_with-wm.NavigationVariable-1455866578500",
+    "name" : "goToPage_Content_with",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Content_with",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Dashboard" : {
+    "_id" : "wm-goToPage_Dashboard-wm.NavigationVariable-1455865200616",
+    "name" : "goToPage_Dashboard",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Dashboard",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Dashboard2" : {
+    "_id" : "wm-goToPage_Dashboard2-wm.NavigationVariable-1455866851321",
+    "name" : "goToPage_Dashboard2",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Dashboard2",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Ecommerce_List" : {
+    "_id" : "wm-goToPage_Ecommerce_List-wm.NavigationVariable-1455867022217",
+    "name" : "goToPage_Ecommerce_List",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Ecommerce_List",
+    "pageTransitions" : "none"
+  },
   "goToPage_Explore" : {
     "_id" : "wm-goToPage_Explore-wm.NavigationVariable-1448214985841",
     "name" : "goToPage_Explore",
@@ -158,6 +288,16 @@
     "pageName" : "FacebookProfile",
     "pageTransitions" : "none"
   },
+  "goToPage_Filters" : {
+    "_id" : "wm-goToPage_Filters-wm.NavigationVariable-1455866931343",
+    "name" : "goToPage_Filters",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Filters",
+    "pageTransitions" : "none"
+  },
   "goToPage_HalfimageList" : {
     "_id" : "wm-goToPage_HalfimageList-wm.NavigationVariable-1448214866687",
     "name" : "goToPage_HalfimageList",
@@ -166,6 +306,86 @@
     "dataBinding" : [ ],
     "operation" : "gotoPage",
     "pageName" : "HalfimageList",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Headers_list" : {
+    "_id" : "wm-goToPage_Headers_list-wm.NavigationVariable-1455864722817",
+    "name" : "goToPage_Headers_list",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Headers_list",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Icons_list" : {
+    "_id" : "wm-goToPage_Icons_list-wm.NavigationVariable-1455865354414",
+    "name" : "goToPage_Icons_list",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Icons_list",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Image_Grid_List" : {
+    "_id" : "wm-goToPage_Image_Grid_List-wm.NavigationVariable-1455865070438",
+    "name" : "goToPage_Image_Grid_List",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Image_Grid_List",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Image_Icons_Menu" : {
+    "_id" : "wm-goToPage_Image_Icons_Menu-wm.NavigationVariable-1455864997351",
+    "name" : "goToPage_Image_Icons_Menu",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Image_Icons_Menu",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Investor_Profile" : {
+    "_id" : "wm-goToPage_Investor_Profile-wm.NavigationVariable-1455866155742",
+    "name" : "goToPage_Investor_Profile",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Investor_Profile",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Large_Image_List" : {
+    "_id" : "wm-goToPage_Large_Image_List-wm.NavigationVariable-1455865123357",
+    "name" : "goToPage_Large_Image_List",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Large_Image_List",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Large_menu" : {
+    "_id" : "wm-goToPage_Large_menu-wm.NavigationVariable-1455864832787",
+    "name" : "goToPage_Large_menu",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Large_menu",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Line_chart" : {
+    "_id" : "wm-goToPage_Line_chart-wm.NavigationVariable-1455866962657",
+    "name" : "goToPage_Line_chart",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Line_chart",
     "pageTransitions" : "none"
   },
   "goToPage_Linkedin" : {
@@ -188,6 +408,56 @@
     "pageName" : "MenuIcons",
     "pageTransitions" : "none"
   },
+  "goToPage_Order_summary" : {
+    "_id" : "wm-goToPage_Order_summary-wm.NavigationVariable-1455867185640",
+    "name" : "goToPage_Order_summary",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Order_summary",
+    "pageTransitions" : "none"
+  },
+  "goToPage_People_list" : {
+    "_id" : "wm-goToPage_People_list-wm.NavigationVariable-1455864663050",
+    "name" : "goToPage_People_list",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "People_list",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Profile_Grid" : {
+    "_id" : "wm-goToPage_Profile_Grid-wm.NavigationVariable-1455866013754",
+    "name" : "goToPage_Profile_Grid",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Profile_Grid",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Profile_List" : {
+    "_id" : "wm-goToPage_Profile_List-wm.NavigationVariable-1455865404686",
+    "name" : "goToPage_Profile_List",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Profile_List",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Profile_Pic_Menu" : {
+    "_id" : "wm-goToPage_Profile_Pic_Menu-wm.NavigationVariable-1455864909158",
+    "name" : "goToPage_Profile_Pic_Menu",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Profile_Pic_Menu",
+    "pageTransitions" : "none"
+  },
   "goToPage_Radiobuttonlist" : {
     "_id" : "wm-goToPage_Radiobuttonlist-wm.NavigationVariable-1448214773162",
     "name" : "goToPage_Radiobuttonlist",
@@ -196,6 +466,36 @@
     "dataBinding" : [ ],
     "operation" : "gotoPage",
     "pageName" : "Radiobuttonlist",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Rating_List" : {
+    "_id" : "wm-goToPage_Rating_List-wm.NavigationVariable-1455867115659",
+    "name" : "goToPage_Rating_List",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Rating_List",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Registration" : {
+    "_id" : "wm-goToPage_Registration-wm.NavigationVariable-1455867219681",
+    "name" : "goToPage_Registration",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Registration",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Sales_Dashboard" : {
+    "_id" : "wm-goToPage_Sales_Dashboard-wm.NavigationVariable-1455865274878",
+    "name" : "goToPage_Sales_Dashboard",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Sales_Dashboard",
     "pageTransitions" : "none"
   },
   "goToPage_Share" : {
@@ -208,6 +508,76 @@
     "pageName" : "Share",
     "pageTransitions" : "none"
   },
+  "goToPage_Share_Buttons" : {
+    "_id" : "wm-goToPage_Share_Buttons-wm.NavigationVariable-1455867298049",
+    "name" : "goToPage_Share_Buttons",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Share_Buttons",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Share_Controls" : {
+    "_id" : "wm-goToPage_Share_Controls-wm.NavigationVariable-1455866189812",
+    "name" : "goToPage_Share_Controls",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Share_Controls",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Shipping_Address" : {
+    "_id" : "wm-goToPage_Shipping_Address-wm.NavigationVariable-1455867334503",
+    "name" : "goToPage_Shipping_Address",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Shipping_Address",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Shipping_address_2" : {
+    "_id" : "wm-goToPage_Shipping_address_2-wm.NavigationVariable-1455867377303",
+    "name" : "goToPage_Shipping_address_2",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Shipping_address_2",
+    "pageTransitions" : "none"
+  },
+  "goToPage_SignIn_Image" : {
+    "_id" : "wm-goToPage_SignIn_Image-wm.NavigationVariable-1455867413639",
+    "name" : "goToPage_SignIn_Image",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "SignIn_Image",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Social_Login" : {
+    "_id" : "wm-goToPage_Social_Login-wm.NavigationVariable-1455867151242",
+    "name" : "goToPage_Social_Login",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Social_Login",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Text_Only_Menu" : {
+    "_id" : "wm-goToPage_Text_Only_Menu-wm.NavigationVariable-1455865941442",
+    "name" : "goToPage_Text_Only_Menu",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Text_Only_Menu",
+    "pageTransitions" : "none"
+  },
   "goToPage_ThumbnailList" : {
     "_id" : "wm-goToPage_ThumbnailList-wm.NavigationVariable-1448214803572",
     "name" : "goToPage_ThumbnailList",
@@ -216,6 +586,26 @@
     "dataBinding" : [ ],
     "operation" : "gotoPage",
     "pageName" : "ThumbnailList",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Venue_List" : {
+    "_id" : "wm-goToPage_Venue_List-wm.NavigationVariable-1455867064514",
+    "name" : "goToPage_Venue_List",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Venue_List",
+    "pageTransitions" : "none"
+  },
+  "goToPage_Weather" : {
+    "_id" : "wm-goToPage_Weather-wm.NavigationVariable-1455866822046",
+    "name" : "goToPage_Weather",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "Weather",
     "pageTransitions" : "none"
   },
   "HrdbDepartmentData" : {

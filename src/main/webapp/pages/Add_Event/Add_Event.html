@@ -1,0 +1,84 @@
+<wm-page data-ng-controller="Add_EventPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-form class="panel-default" name="form1"> 
+                <wm-layoutgrid name="layoutgrid2"> 
+                    <wm-gridrow name="gridrow8_1"> 
+                        <wm-gridcolumn name="gridcolumn16"> 
+                            <wm-text tabindex="1" placeholder="Title" name="Title"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow9_1"> 
+                        <wm-gridcolumn name="gridcolumn17"> 
+                            <wm-text tabindex="2" placeholder="Location" name="Title"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow8"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn9" height="2.5em" backgroundcolor="#f3f3f4"></wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow11_1" paddingleft="1" paddingunit="em"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn19_1" paddingunit="em" paddingtop="1"> 
+                            <wm-composite name="composite4"> 
+                                <wm-label class="col-xs-9" name="label14_1" caption="All Day"></wm-label> 
+                                <wm-container class="col-xs-3" name="container4"> 
+                                    <wm-checkbox caption="Toggle" type="toggle" name="toggle1"></wm-checkbox> 
+                                </wm-container> 
+                            </wm-composite> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow12_1" paddingleft="1" paddingunit="em"> 
+                        <wm-gridcolumn columnwidth="8" name="gridcolumn20" class="col-xs-8"> 
+                            <wm-composite name="composite6"> 
+                                <wm-label class="col-xs-4" name="label16_1" caption="From"></wm-label> 
+                                <wm-container class="col-xs-8" name="container6"> 
+                                    <wm-text tabindex="4" placeholder="Select Date" name="fromDate" type="date"></wm-text> 
+                                </wm-container> 
+                            </wm-composite> 
+                        </wm-gridcolumn> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn8" class="col-xs-4"> 
+                            <wm-text tabindex="5" placeholder="Select Time" name="fromTime" type="time"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow12_1" paddingleft="1" paddingunit="em"> 
+                        <wm-gridcolumn columnwidth="8" name="gridcolumn20" class="col-xs-8"> 
+                            <wm-composite name="composite6"> 
+                                <wm-label class="col-xs-4" name="label16_1" caption="To"></wm-label> 
+                                <wm-container class="col-xs-8" name="container6"> 
+                                    <wm-text tabindex="6" placeholder="Select Date" name="toDate" type="datetime-local"></wm-text> 
+                                </wm-container> 
+                            </wm-composite> 
+                        </wm-gridcolumn> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn8" class="col-xs-4"> 
+                            <wm-text tabindex="7" placeholder="Select Time" name="toTime" type="time"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow14_1" paddingleft="1" paddingunit="em"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn22_1"> 
+                            <wm-composite name="composite7"> 
+                                <wm-label class="col-xs-3" name="label17" caption="Time Zone"></wm-label> 
+                                <wm-container class="col-xs-9" name="container7"> 
+                                    <wm-select tabindex="8" name="select2" placeholder="Select Time Zone"></wm-select> 
+                                </wm-container> 
+                            </wm-composite> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow9" backgroundcolor="#f3f3f4"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn11" height="2.5em"></wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow15" paddingleft="1" paddingunit="em"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn23_1"> 
+                            <wm-composite name="composite8"> 
+                                <wm-label class="col-xs-3" caption="Repeat" name="label18"></wm-label> 
+                                <wm-container class="col-xs-9" name="container8"> 
+                                    <wm-select tabindex="9" placeholder="Select Occurrence" name="select3" dataset="Never, Every Day, Every Week, Every Month, Every Year"></wm-select> 
+                                </wm-container> 
+                            </wm-composite> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                </wm-layoutgrid> 
+            </wm-form> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>

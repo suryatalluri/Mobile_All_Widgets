@@ -1,0 +1,61 @@
+<style id="Profile_List.css">
+
+
+</style>
+<script id="Profile_List.js">
+Application.$controller("Profile_ListPageController", ["$scope", function ($scope) {
+    "use strict";
+}]);
+
+
+</script>
+<script id="Profile_List.variables.json">
+var _Profile_ListPage_Variables_ ={};
+</script>
+<script id="Profile_List.html" type="text/ng-template">
+<wm-page data-ng-controller="Profile_ListPageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-container name="container1" horizontalalign="center" backgroundcolor="#46A3C4" paddingtop="1" paddingbottom="1" paddingunit="em" paddingleft="2" paddingright="2">
+                <wm-picture name="picture2" width="80" picturesource="https://s3.amazonaws.com/uifaces/faces/twitter/mko/128.jpg" shape="circle" borderstyle="solid" bordercolor="#94d5eb" bordertop="1" borderleft="1" borderright="1" borderbottom="1"></wm-picture>
+                <wm-label name="label2" width="100%" caption="John Doe" fontsize="1.5" fontunit="em" margintop=".5" marginunit="em" color="#fff" marginbottom=".5"></wm-label>
+                <wm-icon name="icon2" iconclass="glyphicon glyphicon-heart" iconsize="1.2em" color="#fff"></wm-icon>
+                <wm-label name="label4" caption="1" fontsize="1.2" fontunit="em" paddingleft=".5" paddingright=".5" paddingunit="em" color="#fff"></wm-label>
+                <wm-label width="100%" caption="Interests, personal &amp; professional summary,Interests, personal Interests, personal &amp; professional summary" name="label3" fontsize="1" fontunit="em" color="#94d5eb" margintop=".7" marginunit="em"
+                marginbottom="0"></wm-label>
+            </wm-container>
+            <wm-container name="container2" width="100%" height="100%" backgroundcolor="#ded9d9" paddingtop=".5" paddingbottom=".5" paddingunit="em">
+                <wm-livelist listclass="list-group" itemclass="list-group-item" template="true" name="livelist1" dataset="1,2,3" margintop="1" marginbottom="1" marginunit="em">
+                    <wm-listtemplate layout="gridlayout" name="listtemplate1">
+                        <wm-layoutgrid class="gridlayout" name="layoutgrid1">
+                            <wm-gridrow name="gridrow1">
+                                <wm-gridcolumn columnwidth="11" data-template-ctr="true" name="gridcolumn1" horizontalalign="left" class="col-xs-11">
+                                    <wm-label name="label5" caption="Followers" fontsize="1.3" fontunit="em" marginbottom="0" marginunit="em"></wm-label>
+                                    <wm-label name="label6" caption="5" textalign="right" class="pull-right" fontsize="1.2" fontunit="em" marginbottom="0" marginunit="em"></wm-label>
+                                </wm-gridcolumn>
+                                <wm-gridcolumn columnwidth="1" data-template-ctr="true" name="gridcolumn2" horizontalalign="right" class="col-xs-1">
+                                    <wm-icon name="icon3" iconclass="fa fa-chevron-right fa-2x"></wm-icon>
+                                </wm-gridcolumn>
+                            </wm-gridrow>
+                        </wm-layoutgrid>
+                    </wm-listtemplate>
+                </wm-livelist>
+                <wm-tile name="tile1" margintop="1" marginbottom="1" marginunit="em" paddingtop="1" paddingleft="1" paddingright="1" paddingbottom="1" paddingunit="em">
+                    <wm-layoutgrid name="layoutgrid2">
+                        <wm-gridrow name="gridrow2">
+                            <wm-gridcolumn columnwidth="10" name="gridcolumn3" class="col-xs-10" paddingleft=".1" paddingright=".1" paddingunit="em">
+                                <wm-label name="label9" caption="Settings" fontsize="1.3" fontunit="em" marginbottom="0" marginunit="em"></wm-label>
+                            </wm-gridcolumn>
+                            <wm-gridcolumn columnwidth="2" name="gridcolumn4" horizontalalign="right" class="col-xs-2">
+                                <wm-icon name="icon3" iconclass="fa fa-chevron-right fa-2x"></wm-icon>
+                            </wm-gridcolumn>
+                        </wm-gridrow>
+                    </wm-layoutgrid>
+                </wm-tile>
+            </wm-container>
+        </wm-page-content>
+    </wm-content>
+</wm-page>
+</script>

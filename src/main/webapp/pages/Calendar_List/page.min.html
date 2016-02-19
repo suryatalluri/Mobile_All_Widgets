@@ -1,0 +1,56 @@
+<style id="Calendar_List.css">
+
+
+</style>
+<script id="Calendar_List.js">
+Application.$controller("Calendar_ListPageController", ["$scope", function ($scope) {
+    "use strict";
+}]);
+
+
+</script>
+<script id="Calendar_List.variables.json">
+var _Calendar_ListPage_Variables_ ={};
+</script>
+<script id="Calendar_List.html" type="text/ng-template">
+<wm-page data-ng-controller="Calendar_ListPageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-layoutgrid name="layoutgrid5_1" marginunit="em" paddingtop=".5" paddingleft="1.1" paddingright="1" paddingbottom=".5" paddingunit="em">
+                <wm-gridrow name="gridrow6_1">
+                    <wm-gridcolumn columnwidth="2" name="gridcolumn10" class="col-xs-2">
+                        <wm-label caption="20" fontweight="bold" fontunit="em" width="100%" name="presentDate" fontfamily="roboto" marginbottom="0" color="#23b7e5" margintop="8" marginleft="0" class="h3"></wm-label>
+                        <wm-label width="100%" caption="Sun" fontsize="1" fontunit="em" fontweight="bold" margintop="0" name="presentDay" fontfamily="roboto" color="#23b7e5" marginleft="0"></wm-label>
+                    </wm-gridcolumn>
+                    <wm-gridcolumn columnwidth="10" name="gridcolumn11" class="col-xs-10" paddingtop=".5" paddingbottom=".5" paddingunit="em">
+                        <wm-textarea name="textarea1" placeholder="Nothing planned. Tap to create."></wm-textarea>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+            </wm-layoutgrid>
+            <wm-livelist listclass="list-group" itemclass="media" name="livelist3" title="March 22-28" dataset="1,2,3,4,5,6,7" template="true">
+                <wm-listtemplate layout="media" name="listtemplate3">
+                    <wm-container class="media-left col-xs-2" name="container2">
+                        <wm-label name="Date" caption="25" width="100%" class="media-heading h3" fontweight="bold"></wm-label>
+                        <wm-label name="Day" width="100%" caption="Sat"></wm-label>
+                    </wm-container>
+                    <wm-container class="media-body" data-template-ctr="true" name="container3" backgroundcolor="#17c0a0" color="#fff" paddingtop="0.5" paddingbottom="0.5" paddingright="0.5" paddingleft="0.5" paddingunit="em">
+                        <wm-layoutgrid name="layoutgrid5">
+                            <wm-gridrow name="gridrow8">
+                                <wm-gridcolumn columnwidth="8" name="gridcolumn18" class="col-xs-8" paddingtop="0" paddingleft="3">
+                                    <wm-label name="userName" caption="Chris Madison" width="100%" class="media-heading h4"></wm-label>
+                                    <wm-label name="eventName" width="100%" caption="Birthday"></wm-label>
+                                </wm-gridcolumn>
+                                <wm-gridcolumn columnwidth="4" name="gridcolumn20" horizontalalign="right" class="col-xs-4">
+                                    <wm-picture class="picture" shape="circle" width="3em" picturesource="http://dev.wavemaker.com/examples/salesrep/Chris-Madison.png" name="userPicture"></wm-picture>
+                                </wm-gridcolumn>
+                            </wm-gridrow>
+                        </wm-layoutgrid>
+                    </wm-container>
+                </wm-listtemplate>
+            </wm-livelist>
+        </wm-page-content>
+    </wm-content>
+</wm-page>
+</script>

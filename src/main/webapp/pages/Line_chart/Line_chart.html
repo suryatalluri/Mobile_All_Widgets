@@ -1,0 +1,41 @@
+<wm-page data-ng-controller="Line_chartPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-chart type="Cumulative Line" name="chart1" theme="Terrestrial" showyaxis="true" captions="false" legendposition="Top" showlegend="false" nodatamessage="No Data Available." show="true" yaxislabeldistance="12"></wm-chart> 
+            <wm-layoutgrid name="layoutgrid1" marginunit="em" borderstyle="none" borderunit="em" backgroundcolor="#ffffff"> 
+                <wm-gridrow name="gridrow1" height="9em"> 
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn2" class="col-xs-6" paddingunit="em" horizontalalign="center" bordercolor="#F2F2F2" borderstyle="solid" bordertop="0.1" borderleft="0.1" borderbottom="0" borderright="0" borderunit="em"> 
+                        <wm-label name="label1" width="100%" class="h3" caption="448" marginunit="em"></wm-label> 
+                        <wm-label name="label2" width="100%" class="h6 text-muted" caption="UNIQUE VISITORS" marginunit="em"></wm-label> 
+                    </wm-gridcolumn> 
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn3" class="col-xs-6" horizontalalign="center" paddingunit="em" bordertop="0.1" borderleft="0.1" borderbottom="0" borderright="0.1" borderunit="em" borderstyle="solid" bordercolor="#F2F2F2"> 
+                        <wm-label width="100%" name="label7" class="h3" color="red" caption="491" marginunit="em"></wm-label> 
+                        <wm-label width="100%" name="label8" class="h6 text-muted" caption="VISITS" marginunit="em"></wm-label> 
+                    </wm-gridcolumn> 
+                </wm-gridrow> 
+                <wm-gridrow name="gridrow2" height="9em"> 
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn5" class="col-xs-6" horizontalalign="center" paddingunit="em" bordertop="0.1" borderbottom="0" borderright="0" borderleft="0.1" borderunit="em" bordercolor="#F2F2F2" borderstyle="solid"> 
+                        <wm-label width="100%" name="label9" class="h3" caption="948" marginunit="em"></wm-label> 
+                        <wm-label width="100%" name="label10" class="h6 text-muted" caption="ACTIONS" marginunit="em"></wm-label> 
+                    </wm-gridcolumn> 
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn6" class="col-xs-6" horizontalalign="center" bordertop="0.1" borderleft="0.1" borderbottom="0" borderright="0.1" borderunit="em" bordercolor="#F2F2F2" borderstyle="solid"> 
+                        <wm-label width="100%" name="label13" class="h3" caption="40" marginunit="em"></wm-label> 
+                        <wm-label name="label14" class="h6 text-muted" caption="MAXIMUM ACTIONS IN ONE VISIT" marginunit="em"></wm-label> 
+                    </wm-gridcolumn> 
+                </wm-gridrow> 
+                <wm-gridrow name="gridrow3" height="9em"> 
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn8" class="col-xs-6" horizontalalign="center" paddingunit="em" bordertop="0.1" borderbottom="0.1" borderleft="0.1" borderright="0" borderunit="em" bordercolor="#F2F2F2" borderstyle="solid"> 
+                        <wm-label width="100%" name="label11" class="h3" caption="72%" marginunit="em"></wm-label> 
+                        <wm-label width="100%" name="label12" class="h6 text-muted" caption="BOUNCE RATE" marginunit="em"></wm-label> 
+                    </wm-gridcolumn> 
+                    <wm-gridcolumn columnwidth="6" name="gridcolumn9" class="col-xs-6" horizontalalign="center" paddingunit="em" bordertop="0.1" borderbottom="0.1" borderleft="0.1" borderright="0.1" borderunit="em" bordercolor="#F2F2F2" borderstyle="solid"> 
+                        <wm-label width="100%" name="label15" class="h3" caption="1.9%" marginunit="em"></wm-label> 
+                        <wm-label width="100%" name="label16" class="h6 text-muted" caption="ACTIONS PER VISIT" marginunit="em"></wm-label> 
+                    </wm-gridcolumn> 
+                </wm-gridrow> 
+            </wm-layoutgrid> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>

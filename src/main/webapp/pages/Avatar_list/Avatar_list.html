@@ -1,0 +1,22 @@
+<wm-page data-ng-controller="Avatar_listPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-livelist listclass="list-group" itemclass="list-group-item" name="livelist2_1" dataset="1,2,3,4,5,6" navigation="Scroll" template="true"> 
+                <wm-listtemplate layout="media" name="listtemplate2_1"> 
+                    <wm-container class="media-left" name="container2"> 
+                        <wm-picture class="media-object picture" shape="circle" width="40pt" name="picture2_1" picturesource="http://dev.wavemaker.com/examples/salesrep/Chris-Madison.png"></wm-picture> 
+                    </wm-container> 
+                    <wm-container class="media-body" data-template-ctr="true" name="container3"> 
+                        <wm-label width="100%" caption="Chris Madison" name="label3" class="media-heading h4"></wm-label> 
+                        <wm-label width="100%" caption="Architect, Mobeteq" class="text-muted" name="label4"></wm-label> 
+                    </wm-container> 
+                    <wm-container class="media-right media-middle" name="container4"> 
+                        <wm-anchor caption="" name="button1" class="fa fa-chevron-right fa-2x"></wm-anchor> 
+                    </wm-container> 
+                </wm-listtemplate> 
+            </wm-livelist> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>

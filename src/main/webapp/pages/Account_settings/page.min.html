@@ -1,0 +1,72 @@
+<style id="Account_settings.css">
+
+
+</style>
+<script id="Account_settings.js">
+Application.$controller("Account_settingsPageController", ["$scope", function ($scope) {
+    "use strict";
+}]);
+
+
+</script>
+<script id="Account_settings.variables.json">
+var _Account_settingsPage_Variables_ ={};
+</script>
+<script id="Account_settings.html" type="text/ng-template">
+<wm-page data-ng-controller="Account_settingsPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-nav type="pills" name="nav1" layout="stacked" backgroundcolor="#fdfdfd"> 
+                <wm-nav-item name="nav_item1"> 
+                    <wm-anchor caption="Order Status" name="anchor1" iconclass="glyphicon glyphicon-duplicate"></wm-anchor> 
+                </wm-nav-item> 
+                <wm-nav-item name="nav_item2"> 
+                    <wm-anchor caption="My Reservations" name="anchor2" iconclass="glyphicon glyphicon-shopping-cart"></wm-anchor> 
+                </wm-nav-item> 
+                <wm-nav-item name="nav_item3"> 
+                    <wm-anchor caption="EasyPay Receipts" name="anchor3" iconclass="glyphicon glyphicon-barcode"></wm-anchor> 
+                </wm-nav-item> 
+                <wm-nav-item name="nav_item7"> 
+                    <wm-anchor name="anchor7" caption="Account Settings" iconclass="glyphicon glyphicon-cog"></wm-anchor> 
+                </wm-nav-item> 
+            </wm-nav> 
+            <wm-form class="panel-default" name="form1" margintop="2" marginunit="em"> 
+                <wm-layoutgrid name="layoutgrid1"> 
+                    <wm-gridrow name="gridrow1"> 
+                        <wm-gridcolumn name="gridcolumn1" paddingtop="1" paddingleft="1" paddingunit="em"> 
+                            <wm-composite name="composite4"> 
+                                <wm-label class="col-xs-9" caption="Order Status" name="label7"></wm-label> 
+                                <wm-container class="col-xs-3" name="container4"> 
+                                    <wm-checkbox caption="Toggle" type="toggle" name="toggle4"></wm-checkbox> 
+                                </wm-container> 
+                            </wm-composite> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow2"> 
+                        <wm-gridcolumn name="gridcolumn2" paddingtop="1" paddingleft="1" paddingunit="em"> 
+                            <wm-composite name="composite5"> 
+                                <wm-label class="col-xs-9" caption="Appointment Reminders" name="label8"></wm-label> 
+                                <wm-container class="col-xs-3" name="container5"> 
+                                    <wm-checkbox caption="Toggle" type="toggle" name="toggle5"></wm-checkbox> 
+                                </wm-container> 
+                            </wm-composite> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow3"> 
+                        <wm-gridcolumn name="gridcolumn3" paddingtop="1" paddingleft="1" paddingunit="em"> 
+                            <wm-composite name="composite6"> 
+                                <wm-label class="col-xs-9" caption="iPhone Upgrade Eligibility" name="label9"></wm-label> 
+                                <wm-container class="col-xs-3" name="container6"> 
+                                    <wm-checkbox caption="Toggle" type="toggle" name="toggle6"></wm-checkbox> 
+                                </wm-container> 
+                            </wm-composite> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                </wm-layoutgrid> 
+            </wm-form> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>
+</script>

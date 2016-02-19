@@ -1,0 +1,25 @@
+<wm-page data-ng-controller="Icons_listPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-livelist listclass="list-group" name="livelist2" dataset="1,2,3"> 
+                <wm-listtemplate layout="panel" name="listtemplate2"> 
+                    <wm-livelist listclass="list-group" itemclass="list-group-item" name="livelist3" title="Heading" class="panel-default" dataset="1,2,3,4,5,6,7,8,9"> 
+                        <wm-listtemplate layout="media" name="listtemplate3_1"> 
+                            <wm-container class="media-left" name="container4"> 
+                                <wm-icon name="icon3" iconclass="glyphicon glyphicon-info-sign" iconsize="2em" color="#787373" class="media-object"></wm-icon> 
+                            </wm-container> 
+                            <wm-container class="media-body" data-template-ctr="true" name="container5"> 
+                                <wm-label caption="More Information" name="label3" class="media-heading h4"></wm-label> 
+                            </wm-container> 
+                            <wm-container class="media-right media-middle" name="container6"> 
+                                <wm-anchor iconname="chevron-right" caption="" name="button1"></wm-anchor> 
+                            </wm-container> 
+                        </wm-listtemplate> 
+                    </wm-livelist> 
+                </wm-listtemplate> 
+            </wm-livelist> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>

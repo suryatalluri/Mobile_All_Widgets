@@ -1,0 +1,46 @@
+<wm-page data-ng-controller="Venue_ListPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-container name="container1" backgroundcolor="#73ade6" height="15em"> 
+                <wm-label name="label6_1" width="100%" caption="Place map here" textalign="center" color="#ffffff" class="h3" margintop="4" marginunit="em"></wm-label> 
+            </wm-container> 
+            <wm-livelist template="true" listclass="list-group" itemclass="list-group-item" name="livelist2" dataset="1,2,3,4,5"> 
+                <wm-listtemplate layout="media" name="listtemplate2"> 
+                    <wm-container class="media-left" name="container2"> 
+                        <wm-icon name="icon2" iconclass="fa fa-cutlery fa-2x" class="media-object"></wm-icon> 
+                    </wm-container> 
+                    <wm-container class="media-body" data-template-ctr="true" name="container3"> 
+                        <wm-layoutgrid name="layoutgrid2"> 
+                            <wm-gridrow name="gridrow2"> 
+                                <wm-gridcolumn columnwidth="9" name="gridcolumn5"> 
+                                    <wm-label name="label6" class="media-heading h4" caption="Crumbs Bake Shop" width="100%"></wm-label> 
+                                </wm-gridcolumn> 
+                                <wm-gridcolumn columnwidth="3" name="gridcolumn6" horizontalalign="right"> 
+                                    <wm-label name="label8" caption="$9" class="h4 media-heading"></wm-label> 
+                                </wm-gridcolumn> 
+                            </wm-gridrow> 
+                            <wm-gridrow name="gridrow3"> 
+                                <wm-gridcolumn columnwidth="9" name="gridcolumn8"> 
+                                    <wm-label name="label7" caption="1418 Lexington Ave" width="100%" class="text-muted"></wm-label> 
+                                </wm-gridcolumn> 
+                                <wm-gridcolumn columnwidth="3" name="gridcolumn10" horizontalalign="right"> 
+                                    <wm-label name="label9" caption="Avg Bill" class="text-muted"></wm-label> 
+                                </wm-gridcolumn> 
+                            </wm-gridrow> 
+                            <wm-gridrow name="gridrow4"> 
+                                <wm-gridcolumn columnwidth="12" name="gridcolumn11"> 
+                                    <wm-label name="label10" caption="0.23mi" class="text-muted"></wm-label> 
+                                </wm-gridcolumn> 
+                            </wm-gridrow> 
+                        </wm-layoutgrid> 
+                    </wm-container> 
+                    <wm-container class="media-right media-middle" name="container4"> 
+                        <wm-anchor iconname="chevron-right" caption="" name="button1"></wm-anchor> 
+                    </wm-container> 
+                </wm-listtemplate> 
+            </wm-livelist> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>

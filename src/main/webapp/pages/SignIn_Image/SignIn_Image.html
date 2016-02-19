@@ -1,0 +1,21 @@
+<wm-page data-ng-controller="SignIn_ImagePageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-picture name="picture1" width="100%" height="16em" picturesource="http://dev.wavemaker.com/templates/mobile/signin_email_image.jpg"></wm-picture> 
+            <wm-login name="login1" margintop="0" marginleft="0" marginbottom="0" marginright="0" marginunit="em" paddingbottom="40"> 
+                <wm-container class="col-md-9" name="container2" width="100%"> 
+                    <wm-text placeholder="Email" name="usernametext" class="app-login-username" updateon="default" width="100%" borderbottom="0.1" borderleft="0" bordertop="0" borderright="0" borderstyle="solid" borderunit="em" bordercolor="#DADBDD" paddingunit="em" marginunit="em" margintop="0.3"></wm-text> 
+                </wm-container> 
+                <wm-container class="col-md-9" name="container3" width="100%"> 
+                    <wm-text type="password" name="passwordtext" placeholder="Password" class="app-login-password" updateon="default" bordertop="0" borderleft="0" borderright="0" borderbottom="0" borderunit="em" borderstyle="none"></wm-text> 
+                </wm-container> 
+                <wm-composite name="composite3" horizontalalign="center" marginleft="0" marginright="0" marginunit="em"> 
+                    <wm-anchor caption="Forgot Your Password?" name="anchor1" margintop="1" marginunit="em"></wm-anchor> 
+                </wm-composite> 
+                <wm-button type="submit" caption="SIGN IN" width="100%" class="app-login-button btn-primary" name="button1" paddingtop="0.8" paddingbottom="0.8" paddingunit="em"></wm-button> 
+            </wm-login> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>

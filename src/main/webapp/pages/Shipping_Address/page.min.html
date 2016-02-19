@@ -1,0 +1,66 @@
+<style id="Shipping_Address.css">
+
+
+</style>
+<script id="Shipping_Address.js">
+Application.$controller("Shipping_AddressPageController", ["$scope", function ($scope) {
+    "use strict";
+}]);
+
+
+</script>
+<script id="Shipping_Address.variables.json">
+var _Shipping_AddressPage_Variables_ ={};
+</script>
+<script id="Shipping_Address.html" type="text/ng-template">
+<wm-page data-ng-controller="Shipping_AddressPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-form title="SHIPPING ADDRESS" class="panel-default" name="form1"> 
+                <wm-layoutgrid name="layoutgrid1"> 
+                    <wm-gridrow name="gridrow1"> 
+                        <wm-gridcolumn name="gridcolumn1" class="col-xs-12"> 
+                            <wm-text tabindex="1" placeholder="First Name" name="text1"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow4"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn11" class="col-xs-12"> 
+                            <wm-text name="text2" placeholder="Last Name"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow4_1"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn4" class="col-xs-12"> 
+                            <wm-text name="text3" placeholder="Address Line 1"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow5"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn5" class="col-xs-12"> 
+                            <wm-text name="text4" placeholder="Address Line 2 (Optional)"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow6"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn6" class="col-xs-12"> 
+                            <wm-text name="text5" placeholder="City"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow7"> 
+                        <wm-gridcolumn columnwidth="6" name="gridcolumn9" class="col-xs-6"> 
+                            <wm-select name="select1" placeholder="State" datavalue="MA, NY"></wm-select> 
+                        </wm-gridcolumn> 
+                        <wm-gridcolumn columnwidth="6" name="gridcolumn7" class="col-xs-6"> 
+                            <wm-text name="text6" placeholder="ZIP Code" type="number"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow8"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn8" class="col-xs-12"> 
+                            <wm-text name="text7" placeholder="Phone Number" type="tel"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                </wm-layoutgrid> 
+            </wm-form> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>
+</script>

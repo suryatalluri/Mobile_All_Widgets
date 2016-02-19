@@ -1,5 +1,20 @@
 [ {
+  "name" : "About",
+  "type" : "PAGE"
+}, {
+  "name" : "Account_settings",
+  "type" : "PAGE"
+}, {
   "name" : "ActivityFeed",
+  "type" : "PAGE"
+}, {
+  "name" : "Add_Event",
+  "type" : "PAGE"
+}, {
+  "name" : "Avatar_list",
+  "type" : "PAGE"
+}, {
+  "name" : "BAsic_Login",
   "type" : "PAGE"
 }, {
   "name" : "BasicCard",
@@ -11,8 +26,32 @@
   "name" : "BasicProfile",
   "type" : "PAGE"
 }, {
+  "name" : "Basic_Content",
+  "type" : "PAGE"
+}, {
+  "name" : "Basic_details",
+  "type" : "PAGE"
+}, {
+  "name" : "Basic_signup",
+  "type" : "PAGE"
+}, {
+  "name" : "Calendar_List",
+  "type" : "PAGE"
+}, {
   "name" : "Common",
   "type" : "PARTIAL"
+}, {
+  "name" : "Content_with",
+  "type" : "PAGE"
+}, {
+  "name" : "Dashboard",
+  "type" : "PAGE"
+}, {
+  "name" : "Dashboard2",
+  "type" : "PAGE"
+}, {
+  "name" : "Ecommerce_List",
+  "type" : "PAGE"
 }, {
   "name" : "Explore",
   "type" : "PAGE"
@@ -20,7 +59,34 @@
   "name" : "FacebookProfile",
   "type" : "PAGE"
 }, {
+  "name" : "Filters",
+  "type" : "PAGE"
+}, {
   "name" : "HalfimageList",
+  "type" : "PAGE"
+}, {
+  "name" : "Headers_list",
+  "type" : "PAGE"
+}, {
+  "name" : "Icons_list",
+  "type" : "PAGE"
+}, {
+  "name" : "Image_Grid_List",
+  "type" : "PAGE"
+}, {
+  "name" : "Image_Icons_Menu",
+  "type" : "PAGE"
+}, {
+  "name" : "Investor_Profile",
+  "type" : "PAGE"
+}, {
+  "name" : "Large_Image_List",
+  "type" : "PAGE"
+}, {
+  "name" : "Large_menu",
+  "type" : "PAGE"
+}, {
+  "name" : "Line_chart",
   "type" : "PAGE"
 }, {
   "name" : "Linkedin",
@@ -35,13 +101,64 @@
   "name" : "MenuIcons",
   "type" : "PAGE"
 }, {
+  "name" : "Order_summary",
+  "type" : "PAGE"
+}, {
+  "name" : "People_list",
+  "type" : "PAGE"
+}, {
+  "name" : "Profile_Grid",
+  "type" : "PAGE"
+}, {
+  "name" : "Profile_List",
+  "type" : "PAGE"
+}, {
+  "name" : "Profile_Pic_Menu",
+  "type" : "PAGE"
+}, {
   "name" : "Radiobuttonlist",
+  "type" : "PAGE"
+}, {
+  "name" : "Rating_List",
+  "type" : "PAGE"
+}, {
+  "name" : "Registration",
+  "type" : "PAGE"
+}, {
+  "name" : "Sales_Dashboard",
   "type" : "PAGE"
 }, {
   "name" : "Share",
   "type" : "PAGE"
 }, {
+  "name" : "Share_Buttons",
+  "type" : "PAGE"
+}, {
+  "name" : "Share_Controls",
+  "type" : "PAGE"
+}, {
+  "name" : "Shipping_Address",
+  "type" : "PAGE"
+}, {
+  "name" : "Shipping_address_2",
+  "type" : "PAGE"
+}, {
+  "name" : "SignIn_Image",
+  "type" : "PAGE"
+}, {
+  "name" : "Social_Login",
+  "type" : "PAGE"
+}, {
+  "name" : "Text_Only_Menu",
+  "type" : "PAGE"
+}, {
   "name" : "ThumbnailList",
+  "type" : "PAGE"
+}, {
+  "name" : "Venue_List",
+  "type" : "PAGE"
+}, {
+  "name" : "Weather",
   "type" : "PAGE"
 }, {
   "name" : "leftnav",

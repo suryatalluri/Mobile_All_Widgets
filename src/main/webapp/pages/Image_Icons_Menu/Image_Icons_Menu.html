@@ -1,0 +1,42 @@
+<wm-page data-ng-controller="Image_Icons_MenuPageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-container backgroundimage="http://dev.wavemaker.com/templates/mobile/image_icons_menu.jpg" backgroundrepeat="no-repeat" backgroundattachment="fixed" backgroundsize="100%, 100%" name="container1" height="15em" color="#ffffff" paddingleft="2"
+            paddingunit="em" paddingtop="1">
+                <wm-picture name="userThumbnail" picturesource="http://dev.wavemaker.com/examples/salesrep/Amanda-Brown.png" shape="circle" width="80" height="80" borderstyle="solid" bordercolor="#fff" bordertop="2" borderleft="2" borderright="2" borderbottom="2"></wm-picture>
+                <wm-label name="userFullName" caption="Amanda Brown" width="100%" marginbottom=".25" marginunit="em" fontunit="em" class="h2"></wm-label>
+                <wm-label caption="amanda@mobeteq.com" width="100%" name="userEmail"></wm-label>
+            </wm-container>
+            <wm-nav layout="stacked" borderbottom="1" bordertop="0" borderright="0" borderleft="0" borderstyle="solid" bordercolor="#e1e1e1" type="pills" fontsize="1.2" fontunit="em" name="nav1" backgroundcolor="#ffffff">
+                <wm-nav-item name="nav_item1">
+                    <wm-anchor caption="Inbox" iconclass="glyphicon glyphicon-inbox" paddingleft="2" paddingunit="em" iconwidth="1.5em" name="anchor1"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item2">
+                    <wm-anchor caption="Snoozed" iconclass="glyphicon glyphicon-time" paddingleft="2" paddingunit="em" iconwidth="1.5em" name="anchor2"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item3">
+                    <wm-anchor caption="Done" iconclass="glyphicon glyphicon-check" paddingleft="2" paddingunit="em" iconwidth="1.5em" name="anchor3"></wm-anchor>
+                </wm-nav-item>
+            </wm-nav>
+            <wm-nav layout="stacked" fontsize="1.2" fontunit="em" name="nav2" backgroundcolor="#ffffff">
+                <wm-nav-item name="nav_item4">
+                    <wm-anchor caption="Drafts" iconclass="glyphicon glyphicon-envelope" paddingleft="2" paddingunit="em" iconwidth="1.5em" name="anchor4"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item5">
+                    <wm-anchor caption="Sent" iconclass="glyphicon glyphicon-send" paddingleft="2" paddingunit="em" iconwidth="1.5em" name="anchor5"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item6">
+                    <wm-anchor caption="Reminders" iconclass="glyphicon glyphicon-bookmark" paddingleft="2" paddingunit="em" iconwidth="1.5em" name="anchor6"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item7">
+                    <wm-anchor caption="Trash" iconclass="glyphicon glyphicon-trash" paddingleft="2" paddingunit="em" iconwidth="1.5em" name="anchor7"></wm-anchor>
+                </wm-nav-item>
+                <wm-nav-item name="nav_item8">
+                    <wm-anchor caption="Spam" iconclass="glyphicon glyphicon-stop" paddingleft="2" paddingunit="em" iconwidth="1.5em" name="anchor8"></wm-anchor>
+                </wm-nav-item>
+            </wm-nav>
+        </wm-page-content>
+    </wm-content>
+</wm-page>

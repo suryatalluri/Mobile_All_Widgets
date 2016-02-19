@@ -1,0 +1,19 @@
+<wm-page data-ng-controller="AboutPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-tile name="tile2" horizontalalign="center" paddingtop="1" paddingunit="em" paddingbottom="0.5" borderstyle="none" bordertop="0" borderright="0" borderleft="0" borderbottom="0" borderunit="em" marginunit="em"> 
+                <wm-icon name="icon4" iconclass="fa fa-rss-square" iconsize="5em" color="#31c0e0"></wm-icon> 
+                <wm-label name="label1" width="100%" paddingtop="0.3" paddingunit="em" caption="Skim 1.0" class="h5" margintop="0" marginbottom="1" marginleft="0" marginright="0" marginunit="em" paddingbottom="0.3"></wm-label> 
+            </wm-tile> 
+            <wm-livelist listclass="list-group" itemclass="col-xs-4" template="true" name="livelist1" itemsperrow="3" dataset="1,2,3,4,5,6" paddingleft="2" paddingright="2" paddingunit="em" paddingtop="1" paddingbottom="1" marginunit="em" bordertop="1" borderbottom="1" borderright="0" borderleft="0" borderstyle="solid" bordercolor="#d2d2d2"> 
+                <wm-listtemplate layout="panel" name="listtemplate1" width="100%"> 
+                    <wm-picture name="picture1" picturesource="http://dev.wavemaker.com/examples/salesrep/Chris-Madison.png" shape="circle" width="100%" height="100%" marginunit="em" paddingleft="0.7" paddingright="0.7" paddingunit="em" paddingtop="0.7" paddingbottom="0.7"></wm-picture> 
+                    <wm-label name="label2" width="100%" caption="Chris" class="h5" paddingunit="em" marginunit="em" margintop="0" marginbottom="0" textalign="center"></wm-label> 
+                    <wm-label name="label3" width="100%" caption="Architect" paddingunit="em" class="text-muted h6" marginunit="em" margintop="0" marginbottom="0" textalign="center"></wm-label> 
+                </wm-listtemplate> 
+            </wm-livelist> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>

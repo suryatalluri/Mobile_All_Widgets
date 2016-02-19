@@ -1,0 +1,72 @@
+<style id="Filters.css">
+
+
+</style>
+<script id="Filters.js">
+Application.$controller("FiltersPageController", ["$scope", function ($scope) {
+    "use strict";
+}]);
+
+
+</script>
+<script id="Filters.variables.json">
+var _FiltersPage_Variables_ ={};
+</script>
+<script id="Filters.html" type="text/ng-template">
+<wm-page data-ng-controller="FiltersPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-form class="panel-default" name="form1" color="#D37E81"> 
+                <wm-layoutgrid name="layoutgrid3"> 
+                    <wm-gridrow name="gridrow3"> 
+                        <wm-gridcolumn name="gridcolumn6_1" columnwidth="6" paddingtop="1" paddingunit="em"> 
+                            <wm-label class="col-xs-12" name="label9" caption="Arrive Date" paddingleft="1" paddingunit="em"></wm-label> 
+                            <wm-container class="col-xs-12" name="container5"> 
+                                <wm-text name="text2" type="date"></wm-text> 
+                            </wm-container> 
+                        </wm-gridcolumn> 
+                        <wm-gridcolumn columnwidth="6" name="gridcolumn9" paddingtop="1" paddingunit="em"> 
+                            <wm-label class="col-xs-12" name="label10" caption="Depart Date" paddingleft="1" paddingunit="em"></wm-label> 
+                            <wm-container class="col-xs-12" name="container6"> 
+                                <wm-text name="text3" type="date"></wm-text> 
+                            </wm-container> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow6" paddingleft="1" paddingright="1" paddingunit="em" paddingtop="1" paddingbottom="1"> 
+                        <wm-gridcolumn columnwidth="2" name="gridcolumn10"> 
+                            <wm-button caption="" type="button" name="button17" iconclass="fa fa-minus fa-lg" width="100%" height="4em"></wm-button> 
+                        </wm-gridcolumn> 
+                        <wm-gridcolumn columnwidth="8" name="gridcolumn11" horizontalalign="center" paddingtop="1" paddingbottom="1" paddingunit="em" bordertop="1" borderbottom="1" borderstyle="solid" borderleft="0" borderright="0" bordercolor="#e6e6e6"> 
+                            <wm-label name="label10_1" caption="2 Guests" fontweight="bold" width="100%" textalign="center" margintop="0.2" marginunit="em" marginbottom="0.2" color="#666"></wm-label> 
+                        </wm-gridcolumn> 
+                        <wm-gridcolumn columnwidth="2" name="gridcolumn12"> 
+                            <wm-button caption="" type="button" name="button16" iconclass="fa fa-plus fa-lg" width="100%" height="4em"></wm-button> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow7"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn13" paddingbottom="1" paddingunit="em" paddingleft="1" paddingright="1" paddingtop="1"> 
+                            <wm-label name="label1" width="100%" textalign="center" caption="Listing Type"></wm-label> 
+                            <wm-buttongroup name="buttongroup5" class="btn-group-justified" width="100%"> 
+                                <wm-button caption="Private Room" name="button18" width="33.33%" iconclass="fa fa-key fa-lg" iconposition="top" class="active" backgroundcolor="#ffffff"></wm-button> 
+                                <wm-button caption="Shared Room" name="button19" width="33.33%" iconclass="fa fa-asterisk fa-lg" iconposition="top" backgroundcolor="#ffffff" bordercolor="#dfdfdf"></wm-button> 
+                                <wm-button caption="Entire Room" name="button20" width="33.33%" iconclass="fa fa-home fa-lg" iconposition="top" backgroundcolor="#ffffff" bordercolor="#e1e1e1"></wm-button> 
+                            </wm-buttongroup> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow5"> 
+                        <wm-gridcolumn columnwidth="12" name="gridcolumn9_1" paddingtop="1" paddingleft="1" paddingright="1" paddingbottom="1" paddingunit="em"> 
+                            <wm-checkbox caption="Instant Book Only" name="checkbox2" class="pull-left"></wm-checkbox> 
+                            <wm-icon name="icon2" iconclass="fa fa-question-circle" class="pull-left"></wm-icon> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                </wm-layoutgrid> 
+                <wm-buttongroup class="btn-group-justified" name="buttongroup3_1" margintop="1" marginunit="em"> 
+                    <wm-button caption="Apply Filters" type="button" name="button9_1" width="100%" fontsize="1.3" fontunit="em" textalign="center" color="#ffffff" class="btn-danger"></wm-button> 
+                </wm-buttongroup> 
+            </wm-form> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>
+</script>

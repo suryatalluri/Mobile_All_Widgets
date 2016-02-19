@@ -1,0 +1,148 @@
+<wm-page data-ng-controller="Dashboard2PageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-tabs name="tabs2" height="100%"> 
+                <wm-tabpane name="tabpane4"> 
+                    <wm-tabheader name="tabheader4" heading="Brokers"></wm-tabheader> 
+                    <wm-tabcontent name="tabcontent4" paddingleft="0" paddingright="0"> 
+                        <wm-layoutgrid name="layoutgrid1" marginbottom="2" marginunit="em"> 
+                            <wm-gridrow name="gridrow1"> 
+                                <wm-gridcolumn columnwidth="6" name="gridcolumn1" paddingleft=".5" paddingtop=".5" paddingright=".5" paddingbottom=".5" paddingunit="em" class="col-xs-6"> 
+                                    <wm-tile name="tile1" paddingtop="2" paddingleft="2" paddingbottom="2" paddingright="2" paddingunit="em" backgroundcolor="#8fb2d2" color="#ffffff"> 
+                                        <wm-label name="leadsLabel" width="100%" textalign="center" caption="Leads" class="text-uppercase"></wm-label> 
+                                        <wm-label width="100%" textalign="center" name="leadsValueLabel" caption="180" class="h3" margintop="0"></wm-label> 
+                                    </wm-tile> 
+                                </wm-gridcolumn> 
+                                <wm-gridcolumn columnwidth="6" name="gridcolumn2" paddingtop=".5" paddingleft=".5" paddingright=".5" paddingbottom=".5" paddingunit="em" class="col-xs-6"> 
+                                    <wm-tile paddingtop="2" paddingleft="2" paddingbottom="2" paddingright="2" paddingunit="em" name="tile2" backgroundcolor="#9bdab1" color="#ffffff"> 
+                                        <wm-label width="100%" textalign="center" caption="Quotes" class="text-uppercase" name="quotesLabel"></wm-label> 
+                                        <wm-label width="100%" textalign="center" caption="137" class="h3" margintop="0" name="quotesValueLabel"></wm-label> 
+                                    </wm-tile> 
+                                </wm-gridcolumn> 
+                            </wm-gridrow> 
+                            <wm-gridrow name="gridrow2"> 
+                                <wm-gridcolumn columnwidth="6" name="gridcolumn4" paddingtop=".5" paddingleft=".5" paddingright=".5" paddingbottom=".5" paddingunit="em" class="col-xs-6"> 
+                                    <wm-tile paddingtop="2" paddingleft="2" paddingbottom="2" paddingright="2" paddingunit="em" name="tile3" backgroundcolor="#185a9d" color="#ffffff"> 
+                                        <wm-label width="100%" textalign="center" caption="Sales" class="text-uppercase" name="salesLabel"></wm-label> 
+                                        <wm-label width="100%" textalign="center" caption="$39K" class="h3" margintop="0" name="salesValueLabel"></wm-label> 
+                                    </wm-tile> 
+                                </wm-gridcolumn> 
+                                <wm-gridcolumn columnwidth="6" name="gridcolumn5" paddingtop=".5" paddingleft=".5" paddingright=".5" paddingbottom=".5" paddingunit="em" class="col-xs-6"> 
+                                    <wm-tile paddingtop="2" paddingleft="2" paddingbottom="2" paddingright="2" paddingunit="em" name="tile4" backgroundcolor="#E1E2E3" color="#4174B9"> 
+                                        <wm-label width="100%" textalign="center" caption="REVENUE" class="text-uppercase" name="moneymakersValue"></wm-label> 
+                                        <wm-label width="100%" textalign="center" caption="$290K" class="h3" margintop="0" name="moneymakersValueLabel"></wm-label> 
+                                    </wm-tile> 
+                                </wm-gridcolumn> 
+                            </wm-gridrow> 
+                        </wm-layoutgrid> 
+                        <wm-label name="salesRepLabel" class="h4" caption="Sales Representatives" marginbottom="1.5" marginunit="em" marginleft=".5" marginright=".5"></wm-label> 
+                        <wm-layoutgrid name="layoutgrid6"> 
+                            <wm-gridrow name="gridrow12" borderstyle="solid" bordertop="1" borderbottom="1" bordercolor="#DDD" borderleft="0" borderright="0"> 
+                                <wm-gridcolumn columnwidth="6" name="gridcolumn28" class="col-xs-6" paddingleft="1.5" paddingright="1" paddingunit="em" paddingtop=".25" paddingbottom=".25"> 
+                                    <wm-label name="colHeader1" caption="Rep" class="text-uppercase h6" color="#c2c2c2" margintop="0" marginbottom="0"></wm-label> 
+                                </wm-gridcolumn> 
+                                <wm-gridcolumn columnwidth="3" name="gridcolumn29" class="col-xs-3" paddingunit="em" paddingtop=".25" paddingbottom=".25"> 
+                                    <wm-label caption="Leads" class="text-uppercase h6" name="colHeader2" color="#c2c2c2" margintop="0" marginbottom="0"></wm-label> 
+                                </wm-gridcolumn> 
+                                <wm-gridcolumn columnwidth="3" name="gridcolumn30" class="col-xs-3" paddingunit="em" paddingtop=".25" paddingbottom=".25"> 
+                                    <wm-label caption="Sales" class="text-uppercase h6" name="colHeader3" color="#c2c2c2" margintop="0" marginbottom="0"></wm-label> 
+                                </wm-gridcolumn> 
+                            </wm-gridrow> 
+                        </wm-layoutgrid> 
+                        <wm-livelist listclass="list-group" itemclass="list-group-item" template="true" name="livelist1" dataset="1,2,3,4,5"> 
+                            <wm-listtemplate layout="gridlayout" name="listtemplate1"> 
+                                <wm-layoutgrid class="gridlayout" name="layoutgrid5"> 
+                                    <wm-gridrow name="gridrow11"> 
+                                        <wm-gridcolumn columnwidth="6" data-template-ctr="true" name="gridcolumn25" class="col-xs-6"> 
+                                            <wm-label name="userName" caption="Amanda Brown" width="100%" class="list-group-item-heading"></wm-label> 
+                                        </wm-gridcolumn> 
+                                        <wm-gridcolumn columnwidth="3" data-template-ctr="true" name="gridcolumn26" class="col-xs-3" paddingleft=".5" paddingunit="em" paddingright=".5"> 
+                                            <wm-label caption="28" name="userLeads" width="100%"></wm-label> 
+                                        </wm-gridcolumn> 
+                                        <wm-gridcolumn columnwidth="3" name="gridcolumn27" class="col-xs-3" paddingleft="1" paddingunit="em" paddingright="1"> 
+                                            <wm-progress name="progress1" height="5" type="success"></wm-progress> 
+                                        </wm-gridcolumn> 
+                                    </wm-gridrow> 
+                                </wm-layoutgrid> 
+                            </wm-listtemplate> 
+                        </wm-livelist> 
+                    </wm-tabcontent> 
+                </wm-tabpane> 
+                <wm-tabpane name="tabpane5"> 
+                    <wm-tabheader name="tabheader5" heading="Agencies"></wm-tabheader> 
+                    <wm-tabcontent name="tabcontent5" paddingleft="0" paddingright="0"> 
+                        <wm-label name="salesRepLabel" class="h4" caption="Agencies" marginbottom="1.5" marginunit="em" marginleft=".5" marginright=".5" width="100%"></wm-label> 
+                        <wm-layoutgrid name="layoutgrid6"> 
+                            <wm-gridrow name="gridrow12" borderstyle="solid" bordertop="1" borderbottom="1" bordercolor="#DDD" borderleft="0" borderright="0"> 
+                                <wm-gridcolumn columnwidth="6" name="gridcolumn28" class="col-xs-6" paddingleft="1.5" paddingright="1" paddingunit="em" paddingtop=".25" paddingbottom=".25"> 
+                                    <wm-label name="colHeader1" caption="Rep" class="text-uppercase h6" color="#c2c2c2" margintop="0" marginbottom="0"></wm-label> 
+                                </wm-gridcolumn> 
+                                <wm-gridcolumn columnwidth="3" name="gridcolumn29" class="col-xs-3" paddingunit="em" paddingtop=".25" paddingbottom=".25"> 
+                                    <wm-label caption="Leads" class="text-uppercase h6" name="colHeader2" color="#c2c2c2" margintop="0" marginbottom="0"></wm-label> 
+                                </wm-gridcolumn> 
+                                <wm-gridcolumn columnwidth="3" name="gridcolumn30" class="col-xs-3" paddingunit="em" paddingtop=".25" paddingbottom=".25"> 
+                                    <wm-label caption="Sales" class="text-uppercase h6" name="colHeader3" color="#c2c2c2" margintop="0" marginbottom="0"></wm-label> 
+                                </wm-gridcolumn> 
+                            </wm-gridrow> 
+                        </wm-layoutgrid> 
+                        <wm-livelist listclass="list-group" itemclass="list-group-item" template="true" name="livelist1" dataset="1,2,3,4,5"> 
+                            <wm-listtemplate layout="gridlayout" name="listtemplate1"> 
+                                <wm-layoutgrid class="gridlayout" name="layoutgrid5"> 
+                                    <wm-gridrow name="gridrow11"> 
+                                        <wm-gridcolumn columnwidth="6" data-template-ctr="true" name="gridcolumn25" class="col-xs-6"> 
+                                            <wm-label name="userName" caption="Jane Doe"></wm-label> 
+                                        </wm-gridcolumn> 
+                                        <wm-gridcolumn columnwidth="3" data-template-ctr="true" name="gridcolumn26" class="col-xs-3" paddingleft=".5" paddingunit="em" paddingright=".5"> 
+                                            <wm-label caption="28" name="userLeads"></wm-label> 
+                                        </wm-gridcolumn> 
+                                        <wm-gridcolumn columnwidth="3" name="gridcolumn27" class="col-xs-3" paddingleft="1" paddingunit="em" paddingright="1"> 
+                                            <wm-label caption="30" name="userSales"></wm-label> 
+                                        </wm-gridcolumn> 
+                                    </wm-gridrow> 
+                                </wm-layoutgrid> 
+                            </wm-listtemplate> 
+                        </wm-livelist> 
+                    </wm-tabcontent> 
+                </wm-tabpane> 
+                <wm-tabpane name="tabpane6"> 
+                    <wm-tabheader name="tabheader6" heading="Partners"></wm-tabheader> 
+                    <wm-tabcontent name="tabcontent6" paddingleft="0" paddingright="0"> 
+                        <wm-label name="salesRepLabel" class="h4" caption="Partners" marginbottom="1.5" marginunit="em" marginleft=".5" marginright=".5" width="100%"></wm-label> 
+                        <wm-layoutgrid name="layoutgrid6"> 
+                            <wm-gridrow name="gridrow12" borderstyle="solid" bordertop="1" borderbottom="1" bordercolor="#DDD" borderleft="0" borderright="0"> 
+                                <wm-gridcolumn columnwidth="6" name="gridcolumn28" class="col-xs-6" paddingleft="1.5" paddingright="1" paddingunit="em" paddingtop=".25" paddingbottom=".25"> 
+                                    <wm-label name="colHeader1" caption="Rep" class="text-uppercase h6" color="#c2c2c2" margintop="0" marginbottom="0"></wm-label> 
+                                </wm-gridcolumn> 
+                                <wm-gridcolumn columnwidth="3" name="gridcolumn29" class="col-xs-3" paddingunit="em" paddingtop=".25" paddingbottom=".25"> 
+                                    <wm-label caption="Leads" class="text-uppercase h6" name="colHeader2" color="#c2c2c2" margintop="0" marginbottom="0"></wm-label> 
+                                </wm-gridcolumn> 
+                                <wm-gridcolumn columnwidth="3" name="gridcolumn30" class="col-xs-3" paddingunit="em" paddingtop=".25" paddingbottom=".25"> 
+                                    <wm-label caption="Sales" class="text-uppercase h6" name="colHeader3" color="#c2c2c2" margintop="0" marginbottom="0"></wm-label> 
+                                </wm-gridcolumn> 
+                            </wm-gridrow> 
+                        </wm-layoutgrid> 
+                        <wm-livelist listclass="list-group" itemclass="list-group-item" template="true" name="livelist1" dataset="1,2,3,4,5"> 
+                            <wm-listtemplate layout="gridlayout" name="listtemplate1"> 
+                                <wm-layoutgrid class="gridlayout" name="layoutgrid5"> 
+                                    <wm-gridrow name="gridrow11"> 
+                                        <wm-gridcolumn columnwidth="6" data-template-ctr="true" name="gridcolumn25" class="col-xs-6"> 
+                                            <wm-label name="userName" caption="Jane Doe"></wm-label> 
+                                        </wm-gridcolumn> 
+                                        <wm-gridcolumn columnwidth="3" data-template-ctr="true" name="gridcolumn26" class="col-xs-3" paddingleft=".5" paddingunit="em" paddingright=".5"> 
+                                            <wm-label caption="28" name="userLeads"></wm-label> 
+                                        </wm-gridcolumn> 
+                                        <wm-gridcolumn columnwidth="3" name="gridcolumn27" class="col-xs-3" paddingleft="1" paddingunit="em" paddingright="1"> 
+                                            <wm-label caption="30" name="userSales"></wm-label> 
+                                        </wm-gridcolumn> 
+                                    </wm-gridrow> 
+                                </wm-layoutgrid> 
+                            </wm-listtemplate> 
+                        </wm-livelist> 
+                    </wm-tabcontent> 
+                </wm-tabpane> 
+            </wm-tabs> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>

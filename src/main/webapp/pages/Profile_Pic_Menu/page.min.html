@@ -1,0 +1,58 @@
+<style id="Profile_Pic_Menu.css">
+
+
+</style>
+<script id="Profile_Pic_Menu.js">
+Application.$controller("Profile_Pic_MenuPageController", ["$scope", function ($scope) {
+    "use strict";
+}]);
+
+
+</script>
+<script id="Profile_Pic_Menu.variables.json">
+var _Profile_Pic_MenuPage_Variables_ ={};
+</script>
+<script id="Profile_Pic_Menu.html" type="text/ng-template">
+<wm-page data-ng-controller="Profile_Pic_MenuPageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-layoutgrid name="layoutgrid2" backgroundsize="100% 100%" backgroundrepeat="no-repeat" backgroundattachment="local" backgroundimage="http://dev.wavemaker.com/templates/mobile/profile_pic_menu.jpg" height="100%" backgroundcolor="#242A42">
+                <wm-gridrow name="gridrow7">
+                    <wm-gridcolumn columnwidth="12" name="gridcolumn12" horizontalalign="center" borderunit="em" paddingtop="3" paddingunit="em" paddingbottom="2">
+                        <wm-picture name="userThumbnail" picturesource="http://dev.wavemaker.com/examples/salesrep/Amanda-Brown.png" shape="circle" width="6em" height="6em" bordercolor="#fff" borderstyle="solid" bordertop="2" borderleft="2" borderright="2"
+                        borderbottom="2"></wm-picture>
+                        <wm-label name="userFullName" width="100%" caption="Amanda Brown" color="#ffffff" fontunit="em" margintop="0.5" marginunit="em" class="h2"></wm-label>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+                <wm-gridrow name="gridrow4">
+                    <wm-gridcolumn columnwidth="12" name="gridcolumn5">
+                        <wm-nav name="nav1" layout="stacked" fontsize="1.2" fontunit="em">
+                            <wm-nav-item name="nav_item1">
+                                <wm-anchor caption="Search" name="anchor1" iconclass="fa fa-search" paddingleft="2" paddingunit="em" iconwidth="1.5em" color="#ffffff"></wm-anchor>
+                            </wm-nav-item>
+                            <wm-nav-item name="nav_item2">
+                                <wm-anchor caption="Browse" name="anchor2" iconclass="fa fa-book" paddingleft="2" paddingunit="em" iconwidth="1.5em" color="#ffffff"></wm-anchor>
+                            </wm-nav-item>
+                            <wm-nav-item name="nav_item3">
+                                <wm-anchor caption="Activity" name="anchor3" iconclass="fa fa-user" paddingleft="2" paddingunit="em" iconwidth="1.5em" color="#ffffff"></wm-anchor>
+                            </wm-nav-item>
+                            <wm-nav-item name="nav_item4">
+                                <wm-anchor name="anchor4" caption="Radio" iconclass="fa fa-play" paddingleft="2" paddingunit="em" iconwidth="1.5em" color="#ffffff"></wm-anchor>
+                            </wm-nav-item>
+                            <wm-nav-item name="nav_item5">
+                                <wm-anchor name="anchor5" caption="Your Music" iconclass="fa fa-music" paddingleft="2" paddingunit="em" iconwidth="1.5em" color="#ffffff"></wm-anchor>
+                            </wm-nav-item>
+                            <wm-nav-item name="nav_item6"></wm-nav-item>
+                            <wm-nav-item name="nav_item7"></wm-nav-item>
+                            <wm-nav-item name="nav_item8"></wm-nav-item>
+                            <wm-nav-item name="nav_item9"></wm-nav-item>
+                        </wm-nav>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+            </wm-layoutgrid>
+        </wm-page-content>
+    </wm-content>
+</wm-page>
+</script>

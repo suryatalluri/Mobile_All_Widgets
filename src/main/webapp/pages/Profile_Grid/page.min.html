@@ -1,0 +1,58 @@
+<style id="Profile_Grid.css">
+
+
+</style>
+<script id="Profile_Grid.js">
+Application.$controller("Profile_GridPageController", ["$scope", function ($scope) {
+    "use strict";
+}]);
+
+
+</script>
+<script id="Profile_Grid.variables.json">
+var _Profile_GridPage_Variables_ ={};
+</script>
+<script id="Profile_Grid.html" type="text/ng-template">
+<wm-page data-ng-controller="Profile_GridPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-container horizontalalign="center" backgroundcolor="#e0ebeb" name="container1" paddingtop="1" paddingbottom="1" paddingunit="em"> 
+                <wm-picture width="80" picturesource="http://dev.wavemaker.com/examples/salesrep/Chris-Madison.png" shape="circle" name="picture1"></wm-picture> 
+                <wm-label width="100%" caption="Chris Madison" name="label1" fontunit="em" margintop=".5" marginunit="em" class="h4" marginbottom="0.2"></wm-label> 
+                <wm-label width="100%" caption="Architect" name="label3" fontunit="em" margintop="0" marginunit="em" class="h5"></wm-label> 
+            </wm-container> 
+            <wm-layoutgrid name="layoutgrid1"> 
+                <wm-gridrow name="gridrow1" paddingtop=".5" paddingbottom=".5" paddingunit="em"> 
+                    <wm-gridcolumn columnwidth="4" name="gridcolumn1" class="col-xs-4" paddingtop=".5" paddingbottom=".5" paddingunit="em"> 
+                        <wm-tile name="tile1" paddingtop="1" paddingleft="1" paddingright="1" paddingbottom="1" paddingunit="em" borderstyle="solid" bordertop="0" borderleft="0" borderbottom="0" borderright="2"> 
+                            <wm-label name="label4" width="100%" caption="900" textalign="center" fontweight="bold" fontsize="1.2" fontunit="em"></wm-label> 
+                            <wm-label width="100%" caption="articles" name="label5" textalign="center" class="text-uppercase" color="#b3abab" fontweight="bold" fontsize="0.8" fontunit="em"></wm-label> 
+                        </wm-tile> 
+                    </wm-gridcolumn> 
+                    <wm-gridcolumn columnwidth="4" name="gridcolumn2" class="col-xs-4" paddingtop=".5" paddingleft=".5" paddingbottom=".5" paddingunit="em"> 
+                        <wm-tile name="tile2" paddingtop="1" paddingleft="1" paddingright="1" paddingbottom="1" paddingunit="em" borderstyle="solid" bordertop="0" borderleft="0" borderbottom="0" borderright="2"> 
+                            <wm-label width="100%" caption="5" textalign="center" name="label6" fontweight="bold" fontsize="1.2" fontunit="em"></wm-label> 
+                            <wm-label width="100%" caption="magazines" textalign="center" name="label7" class="text-uppercase" fontweight="bold" color="#b3abab" fontsize="0.8" fontunit="em"></wm-label> 
+                        </wm-tile> 
+                    </wm-gridcolumn> 
+                    <wm-gridcolumn columnwidth="4" name="gridcolumn3" class="col-xs-4" paddingtop=".5" paddingleft=".5" paddingbottom=".5" paddingunit="em"> 
+                        <wm-tile name="tile3" paddingtop="1" paddingleft="1" paddingright="1" paddingbottom="1" paddingunit="em" borderstyle="none"> 
+                            <wm-label width="100%" caption="1,150" textalign="center" name="label8" fontweight="bold" fontsize="1.2" fontunit="em"></wm-label> 
+                            <wm-label width="100%" caption="followers" textalign="center" name="label9" class="text-uppercase" color="#b3abab" fontweight="bold" fontsize="0.8" fontunit="em"></wm-label> 
+                        </wm-tile> 
+                    </wm-gridcolumn> 
+                </wm-gridrow> 
+            </wm-layoutgrid> 
+            <wm-livelist listclass="list-group" itemclass="col-xs-4" template="true" dataset="1,2,3,4,5" itemsperrow="3" name="livelist2" paddingunit="em"> 
+                <wm-listtemplate layout="blank" name="listtemplate2"> 
+                    <wm-container class="blank" data-template-ctr="true" backgroundimage="http://dev.wavemaker.com/templates/mobile/profile_grid_image.jpg" paddingtop="1" paddingleft="1" paddingright="1" paddingbottom="1" paddingunit="em" marginunit="em" backgroundrepeat="no-repeat" name="container4" height="150" margintop=".2" marginleft=".2" marginright=".2" marginbottom=".2"> 
+                        <wm-label width="100%" caption="places" color="#fff" fontfamily="Arial" name="label9_1" textalign="center" class="text-uppercase h5"></wm-label> 
+                    </wm-container> 
+                </wm-listtemplate> 
+            </wm-livelist> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>
+</script>

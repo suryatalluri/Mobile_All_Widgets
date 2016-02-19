@@ -1,0 +1,45 @@
+<style id="Basic_Content.css">
+
+
+</style>
+<script id="Basic_Content.js">
+Application.$controller("Basic_ContentPageController", ["$scope", function ($scope) {
+    "use strict";
+}]);
+
+
+</script>
+<script id="Basic_Content.variables.json">
+var _Basic_ContentPage_Variables_ ={};
+</script>
+<script id="Basic_Content.html" type="text/ng-template">
+<wm-page data-ng-controller="Basic_ContentPageController"> 
+    <wm-left-panel content="leftnav"></wm-left-panel> 
+    <wm-mobile-navbar></wm-mobile-navbar> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-container name="container1" backgroundcolor="#F9F9F9" width="100%" height="100%"> 
+                <wm-list name="list1" paddingtop="1" paddingbottom="1" paddingleft="0" paddingright="0" paddingunit="em"> 
+                    <wm-list-item name="list_item1" paddingtop="0" paddingleft="1" paddingright="1" paddingunit="em" paddingbottom="0"> 
+                        <wm-label name="label2" caption="CITY SCAPE" class="h6" fontweight="bold" color="#10659B"></wm-label> 
+                    </wm-list-item> 
+                    <wm-list-item name="list_item2" paddingleft="1" paddingright="1" paddingunit="em" paddingtop="0" paddingbottom="0" margintop="-10"> 
+                        <wm-label name="label3" caption="Living Expenses have tripled in cities in the last decade" class="h4" fontweight="bold"></wm-label> 
+                    </wm-list-item> 
+                    <wm-list-item name="list_item3" paddingleft="1" paddingright="1" paddingunit="em" margintop="-6"> 
+                        <wm-label name="label4" caption="By" paddingleft="0.5" paddingright="0.5" paddingunit="em" class="h6 text-muted"></wm-label> 
+                        <wm-label name="label6" paddingleft="0" paddingright="1" paddingunit="em" class="h6" caption="Jane Doe" color="#10659B"></wm-label> 
+                        <wm-label name="label7" paddingleft="1" paddingunit="em" class="h6 text-muted" borderstyle="solid" bordercolor="#E7E7E7" borderleft=".1" bordertop="0" borderright="0" borderbottom="0" borderunit="em" caption="9 minutes ago"></wm-label> 
+                    </wm-list-item> 
+                    <wm-list-item name="list_item6" horizontalalign="center"> 
+                        <wm-picture name="picture3" paddingtop="0.5" paddingbottom="0.5" paddingunit="em" picturesource="http://dev.wavemaker.com/templates/mobile/content_basic.jpg" width="100%" height="100%" textalign="center" paddingleft="0" paddingright="0"></wm-picture> 
+                    </wm-list-item> 
+                    <wm-list-item name="list_item7" paddingleft="1" paddingbottom="0.5" paddingright="1" paddingunit="em" borderstyle="none" borderunit="em"> 
+                        <wm-label name="label8" caption="Reports say that living expenses are steadily soaring among the cities of the world. The major contributors to this inflation are increasing rates of real estate..." paddingunit="em" bordertop="0.1" borderstyle="none" borderleft="0" borderbottom="0" borderright="0" borderunit="em"></wm-label> 
+                    </wm-list-item> 
+                </wm-list> 
+            </wm-container> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>
+</script>

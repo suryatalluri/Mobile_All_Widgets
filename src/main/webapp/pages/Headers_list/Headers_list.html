@@ -1,0 +1,22 @@
+<wm-page data-ng-controller="Headers_listPageController" name="page1">
+    <wm-left-panel content="leftnav" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-livelist template="true" name="groupPeopleList" dataset="A, B, C" height="100%" listclass="list-group">
+                <wm-listtemplate layout="blank" name="listtemplate1">
+                    <wm-livelist itemclass="list-group-item" dataset="1,2,3,4,5,6" title="A" template="true" listclass="list-group" class="panel-default" name="livelist2">
+                        <wm-listtemplate layout="media" name="listtemplate2">
+                            <wm-container class="media-body" data-template-ctr="true" name="container1">
+                                <wm-label caption="Amanda Brown" width="100%" class="h4 media-heading" name="label1"></wm-label>
+                            </wm-container>
+                            <wm-container class="media-right" name="container2">
+                                <wm-anchor caption="" iconclass="fa fa-chevron-right fa-2x" name="anchor1"></wm-anchor>
+                            </wm-container>
+                        </wm-listtemplate>
+                    </wm-livelist>
+                </wm-listtemplate>
+            </wm-livelist>
+        </wm-page-content>
+    </wm-content>
+</wm-page>
